@@ -1,0 +1,179 @@
+
+
+
+
+(defvar elpaca-installer-version 0.11)
+(defvar elpaca-directory (expand-file-name "elpaca/" user-emacs-directory))
+(defvar elpaca-builds-directory (expand-file-name "builds/" elpaca-directory))
+(defvar elpaca-repos-directory (expand-file-name "repos/" elpaca-directory))
+(defvar elpaca-order '(elpaca :repo "https://github.com/progfolio/elpaca.git"
+				  :ref nil :depth 1 :inherit ignore
+				  :files (:defaults "elpaca-test.el" (:exclude "extensions"))
+				  :build (:not elpaca--activate-package)))
+(let* ((repo  (expand-file-name "elpaca/" elpaca-repos-directory))
+	   (build (expand-file-name "elpaca/" elpaca-builds-directory))
+	   (order (cdr elpaca-order))
+	   (default-directory repo))
+  (add-to-list 'load-path (if (file-exists-p build) build repo))
+  (unless (file-exists-p repo)
+	(make-directory repo t)
+	(when (<= emacs-major-version 28) (require 'subr-x))
+	(condition-case-unless-debug err
+	    (if-let* ((buffer (pop-to-buffer-same-window "*elpaca-bootstrap*"))
+		      ((zerop (apply #'call-process `("git" nil ,buffer t "clone"
+						      ,@(when-let* ((depth (plist-get order :depth)))
+							  (list (format "--depth=%d" depth) "--no-single-branch"))
+						      ,(plist-get order :repo) ,repo))))
+		      ((zerop (call-process "git" nil buffer t "checkout"
+					    (or (plist-get order :ref) "--"))))
+		      (emacs (concat invocation-directory invocation-name))
+		      ((zerop (call-process emacs nil buffer nil "-Q" "-L" "." "--batch"
+					    "--eval" "(byte-recompile-directory \".\" 0 'force)")))
+		      ((require 'elpaca))
+		      ((elpaca-generate-autoloads "elpaca" repo)))
+		(progn (message "%s" (buffer-string)) (kill-buffer buffer))
+	      (error "%s" (with-current-buffer buffer (buffer-string))))
+	  ((error) (warn "%s" err) (delete-directory repo 'recursive))))
+  (unless (require 'elpaca-autoloads nil t)
+	(require 'elpaca)
+	(elpaca-generate-autoloads "elpaca" repo)
+	(let ((load-source-file-function nil)) (load "./elpaca-autoloads"))))
+(add-hook 'after-init-hook #'elpaca-process-queues)
+(elpaca `(,@elpaca-order))
+
+;; Install a package via the elpaca macro
+;; See the "recipes" section of the manual for more details.
+
+;; (elpaca example-package)
+
+;; Install use-package support
+(elpaca elpaca-use-package
+  ;; Enable use-package :ensure support for Elpaca.
+  (elpaca-use-package-mode)
+  (setq elpaca-use-package-mode-by-default t))
+
+(elpaca-wait)
+
+;;When installing a package used in the init file itself,
+;;e.g. a package which adds a use-package key word,
+;;use the :wait recipe keyword to block until that package is installed/configured.
+;;For example:
+;;(use-package general :ensure (:wait t) :demand t)
+
+;; Expands to: (elpaca evil (use-package evil :demand t))
+(use-package evil :ensure t
+  :init                ;; tweak its config before loading it
+  (setq evil-want-integration t)  ;; optional; is set to t by default
+  (setq evil-want-keybinding nil)
+  (setq evil-vsplit-window-right t)
+  (setq evil-split-window-below t)
+  (evil-mode))
+;;(use-package evil :ensure t :demand t)
+
+(use-package evil-collection :ensure t
+  :after evil
+  :config
+  (setq evil-collection-mode-list '(dashboard dired ibuffer))
+(evil-collection-init))
+(use-package evil-tutor :ensure t)
+
+;;Turns off elpaca-use-package-mode current declaration
+;;Note this will cause evaluate the declaration immediately. It is not deferred.
+;;Useful for configuring built-in emacs features.
+(use-package emacs :ensure nil :config (setq ring-bell-function #'ignore))
+
+(use-package babel :ensure t)
+
+(menu-bar-mode -1)
+(tool-bar-mode -1)
+(scroll-bar-mode -1)
+
+(global-display-line-numbers-mode 1)
+(setq display-line-numbers-type 'relative)
+(global-visual-line-mode t)
+
+; (use-package general :ensure t
+      ;; :config
+      ;; (general-evil-setup)
+;; 
+      ;; ;; set up 'SPC' as the global leader key
+      ;; (general-create-definer ysandbox/leader-keys
+        ;; :states '(normal insert visual emacs)
+	;; :keymaps 'override
+	;; :prefix "SPC"            ;; set leader
+	;; :global-prefix "M-SPC")  ;; access leader in insert mode
+;; 
+      ;; (ysandbox/leader-keys
+	;; "b" '(:ignore t :wk "buffer")
+	;; "bb" '(switch-to-buffer :wk "Switch buffer")
+	;; "bk" '(kill-this-buffer :wk "Kill this buffer")
+	;; "bn" '(next-buffer :wk "Next buffer")
+	;; "bp" '(previous-buffer :wk "Previous buffer")
+	;; "br" '(revert-buffer :wk "Reload buffer"))
+      ;; )
+
+
+
+;; goodbye, splash screen!...
+(setq inhibit-startup-message t)
+
+;; theming
+(load-theme 'deeper-blue t)
+
+;; remembering recently edited files
+;; use M-x recentf-open-files 
+(recentf-mode 1)
+
+;; remember cursor location on files
+(save-place-mode 1)
+
+;; saving minibuffer entry prompts
+(setq history-length 32)
+(savehist-mode 1)
+
+;; move customization vars to separate file then load it
+(setq custom-file (locate-user-emacs-file "custom-vars.el"))
+(load custom-file 'noerror 'nomessage)
+
+;; refresh file buffer if file is edited outside emacs
+;; (and non-file buffers, too! just ask dired)
+(global-auto-revert-mode 1)
+(setq global-auto-revert-non-file-buffers t)
+
+;; blurt a comment on opening a scratch buffer
+;;(setq initial-scratch-message "allons-y~")
+
+;; uhm, transparency
+(set-frame-parameter nil 'alpha-background 92) ; For current frame
+(add-to-list 'default-frame-alist '(alpha-background . 92)) ; For all new frames henceforth
+;;(set-background-color "180c38")
+;;(set-cursor-color "00c0ff")
+
+;; (set-face-attribute 'default nil
+  ;; :font "JetBrains Mono"
+  ;; :height 110
+  ;; :weight 'medium)
+;; (set-face-attribute 'variable-pitch nil
+  ;; :font "Ubuntu"
+  ;; :height 120
+  ;; :weight 'medium)
+;; (set-face-attribute 'fixed-pitch nil
+  ;; :font "JetBrains Mono"
+  ;; :height 110
+  ;; :weight 'medium)
+(set-face-attribute 'font-lock-comment-face nil
+  :slant 'italic)
+(set-face-attribute 'font-lock-keyword-face nil
+  :slant 'italic)
+;;(add-to-list 'default-frame-alist '(font . "JetBrains Mono-11"))
+;;(add-to-list 'default-frame-alist '(font . "Inconsolata SemiCondensed Regular-12"))
+(setq-default line-spacing 0.08)
+;;(set-default-font "Inconsolata SemiCondensed Regular-12")
+
+(use-package toc-org :ensure t
+  :commands toc-org-enable
+  :init (add-hook 'org-mode-hook 'toc-org-enable))
+
+(add-hook 'org-mode-hook 'org-indent-mode)
+(use-package org-bullets :ensure t)
+(add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))

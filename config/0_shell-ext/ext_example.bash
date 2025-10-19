@@ -1,0 +1,1 @@
+alias asdoof='echo "ablxflbnmv"'

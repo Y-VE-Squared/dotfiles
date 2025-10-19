@@ -1,0 +1,1 @@
+/home/yves/.emacs.d/elpaca/repos/fast-scroll/fast-scroll.el

@@ -1,0 +1,36 @@
+/* colorscheme: Sandbox Systems common */
+/* (no values set yet) */
+
+/* bg colors: chalkboard, red, yellow, green, blue*/
+@define-color bg0    #241d4d;
+@define-color bg1    #201010;
+@define-color bg2    #201c10;
+@define-color bg3    #042010;
+@define-color bg4    #100820;
+
+@define-color fg0    #d0d0d0;
+@define-color fg1    #e0e0e0;
+@define-color fg2    #f0f0f0;
+
+@define-color red    #000000;
+@define-color orange #000000;
+@define-color yellow #c0a010;
+@define-color green1 #000000;
+@define-color green2 #000000;
+@define-color cyan   #00e0ff;
+@define-color blue0  #00ff90;
+@define-color blue1  #00c0ff;
+@define-color blue2  #000000;
+@define-color blue3  #000000;
+@define-color purple #000000;
+
+@define-color grey0  #c0c0c0;
+@define-color grey1  #d0d0d0;
+@define-color grey2  #e0e0e0;
+@define-color grey3  #f0f0f0;
+
+@define-color sprite0  #f0f0f0;
+@define-color sprite1  #f0f0f0;
+@define-color sprite2  #f0f0f0;
+@define-color sprite3  #f0f0f0;
+@define-color sprite4  #f0f0f0;

@@ -1,0 +1,27 @@
+# aliases are split into files and
+#  called up in a module-like way
+# this makes it easy to use same sets of
+#  vars across diff scripts
+
+Z=~/.config/0_shell-ext
+[ -d "$Z" ] && export SHELL_EXT=$Z && alias shellconfext="cd $Z && ls"
+
+# modules:
+. $Z/0_vars-common
+#. $Z/0_vars-local
+. $Z/prelude.bash
+. $Z/syscolors.bash
+. $Z/mgmt.bash
+. $Z/sandbox.bash
+. $Z/home-net.bash
+. $Z/raspi.bash
+. $Z/trinkets.bash
+. $Z/game.bash
+. $Z/meme.bash
+. $Z/haitian.bash
+. $Z/aux.bash
+#. $Z/ext_example.bash
+
+# wow look, good clean file management
+# now cleanup variables
+Z=;

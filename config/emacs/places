@@ -1,0 +1,13 @@
+;;; -*- coding: utf-8; mode: lisp-data -*-
+(("/home/yves/dotfiles/config/emacs/config.org" . 8572)
+ ("/home/yves/9_spchbbl.org" . 25966)
+ ("/home/yves/.bash_aliases" . 375)
+ ("/home/yves/dotfiles/config/niri/config.kdl" . 25354)
+ ("/home/yves/sandbox.local/wubi-practice.txt" . 10071)
+ ("/home/yves/.boxes-unknown.draft.txt" . 245)
+ ("/home/yves/apps.local/MultiMC/MultiMC" . 4113)
+ ("/home/yves/.emacs.d/auto-save-list/"
+  (dired-filename
+   . "/home/yves/.emacs.d/auto-save-list/.saves-39300-fedora~"))
+ ("/home/yves/.config/emacs/init.el" . 80)
+ ("/home/yves/.config/emacs/early-init.el" . 85))

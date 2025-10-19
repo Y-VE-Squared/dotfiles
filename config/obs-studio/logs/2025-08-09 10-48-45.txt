@@ -1,0 +1,587 @@
+10:48:45.003: Platform: Wayland
+10:48:45.004: CPU Name: AMD Ryzen 7 5825U with Radeon Graphics
+10:48:45.004: CPU Speed: 1397.308MHz
+10:48:45.006: Physical Cores: 8, Logical Cores: 16
+10:48:45.006: Physical Memory: 30865MB Total, 1039MB Free
+10:48:45.006: Kernel Version: Linux 6.15.8-200.fc42.x86_64
+10:48:45.006: Distribution: "Fedora Linux" 42
+10:48:45.006: Desktop Environment: GNOME (gnome)
+10:48:45.006: Session Type: wayland
+10:48:45.011: Current Date/Time: 2025-08-09, 10:48:45 AM
+10:48:45.011: Browser Hardware Acceleration: true
+10:48:45.011: Qt Version: 6.9.1 (runtime), 6.9.1 (compiled)
+10:48:45.011: Portable mode: false
+10:48:45.153: OBS 31.1.1 (linux)
+10:48:45.153: ---------------------------------
+10:48:45.155: ---------------------------------
+10:48:45.156: audio settings reset:
+10:48:45.156: 	samples per sec: 48000
+10:48:45.156: 	speakers:        2
+10:48:45.156: 	max buffering:   960 milliseconds
+10:48:45.156: 	buffering type:  dynamically increasing
+10:48:45.167: ---------------------------------
+10:48:45.167: Initializing OpenGL...
+10:48:45.167: Using EGL/Wayland
+10:48:45.300: Initialized EGL 1.5
+10:48:45.351: Loading up OpenGL on adapter AMD AMD Radeon Graphics (radeonsi, renoir, ACO, DRM 3.63, 6.15.8-200.fc42.x86_64)
+10:48:45.352: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 25.1.4, shading language 4.60
+10:48:45.449: ---------------------------------
+10:48:45.449: video settings reset:
+10:48:45.449: 	base resolution:   1920x1080
+10:48:45.449: 	output resolution: 1280x720
+10:48:45.449: 	downscale filter:  Bicubic
+10:48:45.449: 	fps:               30/1
+10:48:45.449: 	format:            NV12
+10:48:45.449: 	YUV mode:          Rec. 709/Partial
+10:48:45.449: NV12 texture support enabled
+10:48:45.449: P010 texture support not available
+10:48:45.464: Audio monitoring device:
+10:48:45.464: 	name: Default
+10:48:45.464: 	id: default
+10:48:45.465: ---------------------------------
+10:48:45.690: Failed to load 'en-US' text for module: 'decklink-captions.so'
+10:48:45.750: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+10:48:45.878: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+10:48:45.878: Failed to initialize module 'decklink.so'
+10:48:47.277: [pipewire] Available capture sources:
+10:48:47.278: [pipewire]     - Monitor source
+10:48:47.278: [pipewire]     - Window source
+10:48:47.776: v4l2loopback not installed, virtual camera not registered
+10:48:48.289: VAAPI: API version 1.22
+10:48:48.291: FFmpeg VAAPI H264 encoding not supported
+10:48:48.301: FFmpeg VAAPI AV1 encoding not supported
+10:48:48.311: FFmpeg VAAPI HEVC encoding not supported
+10:48:48.882: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+10:48:48.882: 
+10:48:48.882: NVENC not supported
+10:48:48.882: Failed to initialize module 'obs-nvenc.so'
+10:48:50.006: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.6.2 | RPC Version: 1)
+10:48:50.006: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.9.1 | Qt version (run-time): 6.9.1
+10:48:50.006: [obs-websocket] [obs_module_load] Linked ASIO Version: 103002
+10:48:50.006: DEPRECATION: obs_frontend_get_global_config is deprecated. Read from global or user configuration explicitly instead.
+10:48:50.013: [obs-websocket] [obs_module_load] Module loaded.
+10:48:50.201: [vlc-video]: VLC 3.0.21 Vetinari found, VLC video source enabled
+10:48:50.202: ---------------------------------
+10:48:50.202:   Loaded Modules:
+10:48:50.202:     vlc-video.so
+10:48:50.202:     text-freetype2.so
+10:48:50.202:     rtmp-services.so
+10:48:50.202:     obs-websocket.so
+10:48:50.202:     obs-webrtc.so
+10:48:50.202:     obs-webkitgtk.so
+10:48:50.202:     obs-vst.so
+10:48:50.202:     obs-transitions.so
+10:48:50.202:     obs-qsv11.so
+10:48:50.202:     obs-outputs.so
+10:48:50.202:     obs-libfdk.so
+10:48:50.202:     obs-filters.so
+10:48:50.202:     obs-ffmpeg.so
+10:48:50.202:     linux-v4l2.so
+10:48:50.202:     linux-pulseaudio.so
+10:48:50.202:     linux-pipewire.so
+10:48:50.202:     linux-jack.so
+10:48:50.202:     linux-capture.so
+10:48:50.202:     linux-alsa.so
+10:48:50.202:     image-source.so
+10:48:50.202:     frontend-tools.so
+10:48:50.202:     decklink-output-ui.so
+10:48:50.202:     decklink-captions.so
+10:48:50.202: ---------------------------------
+10:48:50.202: ---------------------------------
+10:48:50.202: Available Encoders:
+10:48:50.202:   Video Encoders:
+10:48:50.202: 	- ffmpeg_openh264 (OpenH264)
+10:48:50.202: 	- ffmpeg_svt_av1 (SVT-AV1)
+10:48:50.202: 	- ffmpeg_aom_av1 (AOM AV1)
+10:48:50.202:   Audio Encoders:
+10:48:50.202: 	- ffmpeg_aac (FFmpeg AAC)
+10:48:50.202: 	- ffmpeg_opus (FFmpeg Opus)
+10:48:50.202: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+10:48:50.202: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+10:48:50.202: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+10:48:50.202: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+10:48:50.202: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+10:48:50.202: 	- libfdk_aac (libfdk AAC)
+10:48:50.203: ==== Startup complete ===============================================
+10:48:50.284: All scene data cleared
+10:48:50.284: ------------------------------------------------
+10:48:50.300: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.7) 15.0.0'
+10:48:50.301: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+10:48:50.301: pulse-input: Started recording from 'alsa_output.pci-0000_07_00.6.analog-stereo.monitor' (default)
+10:48:50.301: [Loaded global audio device]: 'Desktop Audio'
+10:48:50.301: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.7) 15.0.0'
+10:48:50.302: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+10:48:50.302: pulse-input: Started recording from 'alsa_input.pci-0000_07_00.6.analog-stereo' (default)
+10:48:50.302: [Loaded global audio device]: 'Mic/Aux'
+10:48:50.303: PipeWire initialized
+10:48:50.306: Switched to scene 'Scene'
+10:48:50.307: ------------------------------------------------
+10:48:50.307: Loaded scenes:
+10:48:50.307: - scene 'Scene':
+10:48:50.307:     - source: 'Screen Capture (PipeWire)' (pipewire-screen-capture-source)
+10:48:50.307: ------------------------------------------------
+10:48:50.519: [pipewire] Screencast session created
+10:48:50.542: [pipewire] Asking for monitor and window
+10:48:50.880: [pipewire] source selected, setting up screencast
+10:48:50.895: [pipewire] Server version: 1.4.7
+10:48:50.895: [pipewire] Library version: 1.4.7
+10:48:50.895: [pipewire] Header version: 1.4.6
+10:48:50.901: [pipewire] Created stream 0x55fabfac9560
+10:48:50.901: [pipewire] Stream 0x55fabfac9560 state: "connecting" (error: none)
+10:48:50.902: [pipewire] Playing stream 0x55fabfac9560
+10:48:50.903: [pipewire] Stream 0x55fabfac9560 state: "paused" (error: none)
+10:48:50.917: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+10:48:50.917: 
+10:48:51.009: [pipewire] Negotiated format:
+10:48:51.009: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+10:48:51.009: [pipewire]     Modifier: 0x0
+10:48:51.009: [pipewire]     Size: 1920x1080
+10:48:51.009: [pipewire]     Framerate: 0/1
+10:48:51.084: [pipewire] Negotiated format:
+10:48:51.085: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+10:48:51.085: [pipewire]     Modifier: 0x200000000401a01
+10:48:51.085: [pipewire]     Size: 1920x1080
+10:48:51.085: [pipewire]     Framerate: 0/1
+10:48:51.119: [pipewire] Stream 0x55fabfac9560 state: "streaming" (error: none)
+10:49:16.636: ---------------------------------
+10:49:16.636: [H.264 encoder: 'simple_video_stream'] settings:
+10:49:16.636: 	encoder:      OpenH264
+10:49:16.636: 	rc_mode:      quality
+10:49:16.636: 	bitrate:      2569
+10:49:16.636: 	keyint_sec:   2
+10:49:16.636: 	profile:      main
+10:49:16.636: 	width:        1280
+10:49:16.636: 	height:       720
+10:49:16.636: 	ffmpeg opts:  
+10:49:16.636: 
+10:49:16.641: libfdk_aac encoder created
+10:49:16.641: libfdk_aac bitrate: 160, channels: 2
+10:49:16.647: ==== Recording Start ===============================================
+10:49:16.647: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/yves/2025-08-09 10-49-16.mkv'...
+10:49:59.217: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/yves/2025-08-09 10-49-16.mkv' stopped
+10:49:59.217: Output 'simple_file_output': stopping
+10:49:59.217: Output 'simple_file_output': Total frames output: 1165
+10:49:59.217: Output 'simple_file_output': Total drawn frames: 619 (1278 attempted)
+10:49:59.217: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 659 (51.6%)
+10:49:59.219: ==== Recording Stop ================================================
+10:49:59.342: libfdk_aac encoder destroyed
+10:50:06.742: Creating a popup with a parent, QWidgetWindow(0x55fabd10c320, name="OBSBasicWindow") which does not match the current topmost grabbing popup, QWidgetWindow(0x55fabfb0f8d0, name="QMenuClassWindow") With some shell surface protocols, this is not allowed. The wayland QPA plugin is currently handling it by setting the parent to the topmost grabbing popup. Note, however, that this may cause positioning errors and popups closing unxpectedly. Please fix the transient parent of the popup.
+10:50:11.433: [pipewire] Stream 0x55fabfac9560 state: "paused" (error: none)
+10:50:11.435: [pipewire] Stream 0x55fabfac9560 state: "unconnected" (error: none)
+10:50:11.444: PipeWire initialized
+10:50:11.451: [pipewire] Screencast session created
+10:50:11.537: [pipewire] Asking for monitor and window
+10:50:14.961: [pipewire] Failed to start screencast, denied or cancelled by user
+10:50:20.659: PipeWire initialized
+10:50:20.665: [pipewire] Screencast session created
+10:50:20.667: [pipewire] Asking for monitor and window
+10:50:25.255: [pipewire] source selected, setting up screencast
+10:50:25.277: [pipewire] Server version: 1.4.7
+10:50:25.277: [pipewire] Library version: 1.4.7
+10:50:25.277: [pipewire] Header version: 1.4.6
+10:50:25.309: [pipewire] Created stream 0x55fac0146c30
+10:50:25.309: [pipewire] Stream 0x55fac0146c30 state: "connecting" (error: none)
+10:50:25.311: [pipewire] Playing stream 0x55fac0146c30
+10:50:25.313: [pipewire] Stream 0x55fac0146c30 state: "paused" (error: none)
+10:50:25.454: [pipewire] Negotiated format:
+10:50:25.455: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+10:50:25.455: [pipewire]     Modifier: 0x0
+10:50:25.455: [pipewire]     Size: 1920x1080
+10:50:25.455: [pipewire]     Framerate: 0/1
+10:50:25.529: [pipewire] Negotiated format:
+10:50:25.529: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+10:50:25.529: [pipewire]     Modifier: 0x200000000401a01
+10:50:25.529: [pipewire]     Size: 1920x1080
+10:50:25.529: [pipewire]     Framerate: 0/1
+10:50:25.558: [pipewire] Stream 0x55fac0146c30 state: "streaming" (error: none)
+10:50:31.340: Creating a popup with a parent, QWidgetWindow(0x55fabd10c320, name="OBSBasicWindow") which does not match the current topmost grabbing popup, QWidgetWindow(0x55fabfa9dd00, name="QMenuClassWindow") With some shell surface protocols, this is not allowed. The wayland QPA plugin is currently handling it by setting the parent to the topmost grabbing popup. Note, however, that this may cause positioning errors and popups closing unxpectedly. Please fix the transient parent of the popup.
+10:50:39.370: Creating a popup with a parent, QWidgetWindow(0x55fabd10c320, name="OBSBasicWindow") which does not match the current topmost grabbing popup, QWidgetWindow(0x55fabfa9dd00, name="QMenuClassWindow") With some shell surface protocols, this is not allowed. The wayland QPA plugin is currently handling it by setting the parent to the topmost grabbing popup. Note, however, that this may cause positioning errors and popups closing unxpectedly. Please fix the transient parent of the popup.
+10:52:28.602: 
+10:52:28.602: ==== Auto-config wizard testing commencing ======
+
+10:52:28.654: ---------------------------------
+10:52:28.654: video settings reset:
+10:52:28.654: 	base resolution:   1920x1080
+10:52:28.654: 	output resolution: 1920x1080
+10:52:28.654: 	downscale filter:  Bicubic
+10:52:28.654: 	fps:               60/1
+10:52:28.654: 	format:            NV12
+10:52:28.654: 	YUV mode:          Rec. 709/Partial
+10:52:28.655: NV12 texture support enabled
+10:52:28.655: P010 texture support not available
+10:52:28.659: Output 'null': Tried to use obs_output_set_media on an encoded output
+10:52:28.659: ---------------------------------
+10:52:28.660: [H.264 encoder: 'test_h264'] settings:
+10:52:28.660: 	encoder:      OpenH264
+10:52:28.660: 	rc_mode:      quality
+10:52:28.660: 	bitrate:      2500
+10:52:28.660: 	keyint_sec:   0
+10:52:28.660: 	profile:      high
+10:52:28.660: 	width:        1920
+10:52:28.660: 	height:       1080
+10:52:28.660: 	ffmpeg opts:  
+10:52:28.660: 
+10:52:28.660: [pipewire] Stream 0x55fac0146c30 state: "paused" (error: none)
+10:52:28.670: libfdk_aac encoder created
+10:52:28.670: libfdk_aac bitrate: 32, channels: 2
+10:52:33.674: Output 'null': stopping
+10:52:33.675: Output 'null': Total frames output: 19
+10:52:33.675: Output 'null': Total drawn frames: 74 (297 attempted)
+10:52:33.675: Output 'null': Number of lagged frames due to rendering lag/stalls: 223 (75.1%)
+10:52:33.843: libfdk_aac encoder destroyed
+10:52:33.918: ---------------------------------
+10:52:33.918: video settings reset:
+10:52:33.918: 	base resolution:   1920x1080
+10:52:33.918: 	output resolution: 1920x1080
+10:52:33.918: 	downscale filter:  Bicubic
+10:52:33.918: 	fps:               30/1
+10:52:33.918: 	format:            NV12
+10:52:33.918: 	YUV mode:          Rec. 709/Partial
+10:52:33.918: NV12 texture support enabled
+10:52:33.918: P010 texture support not available
+10:52:33.921: Output 'null': Tried to use obs_output_set_media on an encoded output
+10:52:33.921: ---------------------------------
+10:52:33.922: [H.264 encoder: 'test_h264'] settings:
+10:52:33.922: 	encoder:      OpenH264
+10:52:33.922: 	rc_mode:      quality
+10:52:33.922: 	bitrate:      2500
+10:52:33.922: 	keyint_sec:   0
+10:52:33.922: 	profile:      high
+10:52:33.922: 	width:        1920
+10:52:33.922: 	height:       1080
+10:52:33.922: 	ffmpeg opts:  
+10:52:33.922: 
+10:52:33.924: libfdk_aac encoder created
+10:52:33.924: libfdk_aac bitrate: 32, channels: 2
+10:52:38.926: Output 'null': stopping
+10:52:38.926: Output 'null': Total frames output: 16
+10:52:38.926: Output 'null': Total drawn frames: 70 (147 attempted)
+10:52:38.926: Output 'null': Number of lagged frames due to rendering lag/stalls: 77 (52.4%)
+10:52:39.002: libfdk_aac encoder destroyed
+10:52:39.072: ---------------------------------
+10:52:39.072: video settings reset:
+10:52:39.072: 	base resolution:   1920x1080
+10:52:39.072: 	output resolution: 1280x720
+10:52:39.072: 	downscale filter:  Bicubic
+10:52:39.072: 	fps:               60/1
+10:52:39.072: 	format:            NV12
+10:52:39.072: 	YUV mode:          Rec. 709/Partial
+10:52:39.073: NV12 texture support enabled
+10:52:39.073: P010 texture support not available
+10:52:39.076: Output 'null': Tried to use obs_output_set_media on an encoded output
+10:52:39.076: ---------------------------------
+10:52:39.076: [H.264 encoder: 'test_h264'] settings:
+10:52:39.076: 	encoder:      OpenH264
+10:52:39.076: 	rc_mode:      quality
+10:52:39.076: 	bitrate:      2500
+10:52:39.076: 	keyint_sec:   0
+10:52:39.076: 	profile:      high
+10:52:39.076: 	width:        1280
+10:52:39.076: 	height:       720
+10:52:39.076: 	ffmpeg opts:  
+10:52:39.076: 
+10:52:39.078: libfdk_aac encoder created
+10:52:39.078: libfdk_aac bitrate: 32, channels: 2
+10:52:44.078: Output 'null': stopping
+10:52:44.078: Output 'null': Total frames output: 124
+10:52:44.078: Output 'null': Total drawn frames: 72 (298 attempted)
+10:52:44.078: Output 'null': Number of lagged frames due to rendering lag/stalls: 226 (75.8%)
+10:52:44.203: libfdk_aac encoder destroyed
+10:52:44.206: ---------------------------------
+10:52:44.206: video settings reset:
+10:52:44.206: 	base resolution:   1920x1080
+10:52:44.206: 	output resolution: 1280x720
+10:52:44.206: 	downscale filter:  Bicubic
+10:52:44.206: 	fps:               30/1
+10:52:44.206: 	format:            NV12
+10:52:44.206: 	YUV mode:          Rec. 709/Partial
+10:52:44.207: NV12 texture support enabled
+10:52:44.207: P010 texture support not available
+10:52:44.211: [pipewire] Stream 0x55fac0146c30 state: "streaming" (error: none)
+10:52:49.525: ---------------------------------
+10:52:49.526: video settings reset:
+10:52:49.526: 	base resolution:   1920x1080
+10:52:49.526: 	output resolution: 1920x1080
+10:52:49.526: 	downscale filter:  Bicubic
+10:52:49.526: 	fps:               60/1
+10:52:49.526: 	format:            NV12
+10:52:49.526: 	YUV mode:          Rec. 709/Partial
+10:52:49.527: NV12 texture support enabled
+10:52:49.527: P010 texture support not available
+10:52:49.537: 
+10:52:49.537: ==== Auto-config wizard testing stopping ========
+
+10:52:59.401: ---------------------------------
+10:52:59.401: [H.264 encoder: 'simple_video_recording'] settings:
+10:52:59.401: 	encoder:      OpenH264
+10:52:59.401: 	rc_mode:      quality
+10:52:59.401: 	bitrate:      2500
+10:52:59.401: 	keyint_sec:   0
+10:52:59.401: 	profile:      main
+10:52:59.401: 	width:        1920
+10:52:59.401: 	height:       1080
+10:52:59.401: 	ffmpeg opts:  
+10:52:59.401: 
+10:52:59.405: libfdk_aac encoder created
+10:52:59.405: libfdk_aac bitrate: 192, channels: 2
+10:52:59.415: ==== Recording Start ===============================================
+10:52:59.415: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/yves/2025-08-09 10-52-59.mkv'...
+10:54:05.098: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/yves/2025-08-09 10-52-59.mkv' stopped
+10:54:05.098: Output 'simple_file_output': stopping
+10:54:05.098: Output 'simple_file_output': Total frames output: 2278
+10:54:05.098: Output 'simple_file_output': Total drawn frames: 948 (3940 attempted)
+10:54:05.098: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 2992 (75.9%)
+10:54:05.100: ==== Recording Stop ================================================
+10:54:05.143: libfdk_aac encoder destroyed
+10:54:46.712: ---------------------------------
+10:54:46.712: video settings reset:
+10:54:46.712: 	base resolution:   1920x1080
+10:54:46.712: 	output resolution: 852x480
+10:54:46.712: 	downscale filter:  Area
+10:54:46.712: 	fps:               30/1
+10:54:46.712: 	format:            NV12
+10:54:46.712: 	YUV mode:          Rec. 709/Partial
+10:54:46.713: NV12 texture support enabled
+10:54:46.713: P010 texture support not available
+10:54:46.718: Settings changed (video)
+10:54:46.718: ------------------------------------------------
+10:54:52.741: ---------------------------------
+10:54:52.741: [H.264 encoder: 'simple_video_recording'] settings:
+10:54:52.741: 	encoder:      OpenH264
+10:54:52.741: 	rc_mode:      quality
+10:54:52.741: 	bitrate:      2500
+10:54:52.741: 	keyint_sec:   0
+10:54:52.741: 	profile:      main
+10:54:52.741: 	width:        852
+10:54:52.741: 	height:       480
+10:54:52.741: 	ffmpeg opts:  
+10:54:52.741: 
+10:54:52.743: libfdk_aac encoder created
+10:54:52.743: libfdk_aac bitrate: 192, channels: 2
+10:54:52.753: ==== Recording Start ===============================================
+10:54:52.753: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/yves/2025-08-09 10-54-52.mkv'...
+10:55:51.895: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/yves/2025-08-09 10-54-52.mkv' stopped
+10:55:51.895: Output 'simple_file_output': stopping
+10:55:51.895: Output 'simple_file_output': Total frames output: 1715
+10:55:51.895: Output 'simple_file_output': Total drawn frames: 882 (1773 attempted)
+10:55:51.895: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 891 (50.3%)
+10:55:51.898: libfdk_aac encoder destroyed
+10:55:51.900: ==== Recording Stop ================================================
+10:55:57.789: This plugin supports grabbing the mouse only for popup windows
+10:55:58.017: This plugin supports grabbing the mouse only for popup windows
+10:56:07.317: This plugin supports grabbing the mouse only for popup windows
+10:56:07.543: This plugin supports grabbing the mouse only for popup windows
+10:58:33.856: 
+10:58:33.856: ==== Auto-config wizard testing commencing ======
+
+10:58:33.857: [pipewire] Stream 0x55fac0146c30 state: "paused" (error: none)
+10:58:33.884: ---------------------------------
+10:58:33.884: video settings reset:
+10:58:33.884: 	base resolution:   1920x1080
+10:58:33.884: 	output resolution: 1280x720
+10:58:33.884: 	downscale filter:  Area
+10:58:33.884: 	fps:               30/1
+10:58:33.884: 	format:            NV12
+10:58:33.884: 	YUV mode:          Rec. 709/Partial
+10:58:33.884: NV12 texture support enabled
+10:58:33.884: P010 texture support not available
+10:58:33.888: Output 'null': Tried to use obs_output_set_media on an encoded output
+10:58:33.888: ---------------------------------
+10:58:33.888: [H.264 encoder: 'test_h264'] settings:
+10:58:33.888: 	encoder:      OpenH264
+10:58:33.888: 	rc_mode:      quality
+10:58:33.888: 	bitrate:      2500
+10:58:33.888: 	keyint_sec:   0
+10:58:33.888: 	profile:      high
+10:58:33.888: 	width:        1280
+10:58:33.888: 	height:       720
+10:58:33.888: 	ffmpeg opts:  
+10:58:33.888: 
+10:58:33.890: libfdk_aac encoder created
+10:58:33.890: libfdk_aac bitrate: 32, channels: 2
+10:58:38.890: Output 'null': stopping
+10:58:38.890: Output 'null': Total frames output: 126
+10:58:38.891: Output 'null': Total drawn frames: 80 (148 attempted)
+10:58:38.891: Output 'null': Number of lagged frames due to rendering lag/stalls: 68 (45.9%)
+10:58:38.891: libfdk_aac encoder destroyed
+10:58:38.899: ---------------------------------
+10:58:38.900: video settings reset:
+10:58:38.900: 	base resolution:   1920x1080
+10:58:38.900: 	output resolution: 852x480
+10:58:38.900: 	downscale filter:  Area
+10:58:38.900: 	fps:               30/1
+10:58:38.900: 	format:            NV12
+10:58:38.900: 	YUV mode:          Rec. 709/Partial
+10:58:38.900: NV12 texture support enabled
+10:58:38.900: P010 texture support not available
+10:58:38.903: Output 'null': Tried to use obs_output_set_media on an encoded output
+10:58:38.903: ---------------------------------
+10:58:38.903: [H.264 encoder: 'test_h264'] settings:
+10:58:38.903: 	encoder:      OpenH264
+10:58:38.903: 	rc_mode:      quality
+10:58:38.903: 	bitrate:      2500
+10:58:38.903: 	keyint_sec:   0
+10:58:38.903: 	profile:      high
+10:58:38.903: 	width:        852
+10:58:38.903: 	height:       480
+10:58:38.903: 	ffmpeg opts:  
+10:58:38.903: 
+10:58:38.904: libfdk_aac encoder created
+10:58:38.904: libfdk_aac bitrate: 32, channels: 2
+10:58:43.905: Output 'null': stopping
+10:58:43.905: Output 'null': Total frames output: 129
+10:58:43.905: Output 'null': Total drawn frames: 84 (149 attempted)
+10:58:43.905: Output 'null': Number of lagged frames due to rendering lag/stalls: 65 (43.6%)
+10:58:44.031: libfdk_aac encoder destroyed
+10:58:44.034: ---------------------------------
+10:58:44.035: video settings reset:
+10:58:44.035: 	base resolution:   1920x1080
+10:58:44.035: 	output resolution: 640x360
+10:58:44.035: 	downscale filter:  Area
+10:58:44.035: 	fps:               30/1
+10:58:44.035: 	format:            NV12
+10:58:44.035: 	YUV mode:          Rec. 709/Partial
+10:58:44.035: NV12 texture support enabled
+10:58:44.035: P010 texture support not available
+10:58:44.039: Output 'null': Tried to use obs_output_set_media on an encoded output
+10:58:44.039: ---------------------------------
+10:58:44.039: [H.264 encoder: 'test_h264'] settings:
+10:58:44.039: 	encoder:      OpenH264
+10:58:44.039: 	rc_mode:      quality
+10:58:44.039: 	bitrate:      2500
+10:58:44.039: 	keyint_sec:   0
+10:58:44.039: 	profile:      high
+10:58:44.039: 	width:        640
+10:58:44.039: 	height:       360
+10:58:44.039: 	ffmpeg opts:  
+10:58:44.039: 
+10:58:44.040: libfdk_aac encoder created
+10:58:44.040: libfdk_aac bitrate: 32, channels: 2
+10:58:49.041: Output 'null': stopping
+10:58:49.041: Output 'null': Total frames output: 136
+10:58:49.041: Output 'null': Total drawn frames: 84 (148 attempted)
+10:58:49.041: Output 'null': Number of lagged frames due to rendering lag/stalls: 64 (43.2%)
+10:58:49.126: libfdk_aac encoder destroyed
+10:58:49.192: ---------------------------------
+10:58:49.192: video settings reset:
+10:58:49.192: 	base resolution:   1920x1080
+10:58:49.192: 	output resolution: 852x480
+10:58:49.192: 	downscale filter:  Area
+10:58:49.192: 	fps:               30/1
+10:58:49.192: 	format:            NV12
+10:58:49.192: 	YUV mode:          Rec. 709/Partial
+10:58:49.193: NV12 texture support enabled
+10:58:49.193: P010 texture support not available
+10:58:49.199: [pipewire] Stream 0x55fac0146c30 state: "streaming" (error: none)
+10:58:54.982: ---------------------------------
+10:58:54.982: video settings reset:
+10:58:54.982: 	base resolution:   1280x720
+10:58:54.982: 	output resolution: 1280x720
+10:58:54.982: 	downscale filter:  Area
+10:58:54.982: 	fps:               30/1
+10:58:54.982: 	format:            NV12
+10:58:54.982: 	YUV mode:          Rec. 709/Partial
+10:58:54.982: NV12 texture support enabled
+10:58:54.982: P010 texture support not available
+10:58:54.991: 
+10:58:54.991: ==== Auto-config wizard testing stopping ========
+
+10:59:04.946: ---------------------------------
+10:59:04.947: [H.264 encoder: 'simple_video_recording'] settings:
+10:59:04.947: 	encoder:      OpenH264
+10:59:04.947: 	rc_mode:      quality
+10:59:04.947: 	bitrate:      2500
+10:59:04.947: 	keyint_sec:   0
+10:59:04.947: 	profile:      main
+10:59:04.947: 	width:        1280
+10:59:04.947: 	height:       720
+10:59:04.947: 	ffmpeg opts:  
+10:59:04.947: 
+10:59:04.948: libfdk_aac encoder created
+10:59:04.948: libfdk_aac bitrate: 192, channels: 2
+10:59:04.958: ==== Recording Start ===============================================
+10:59:04.958: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/yves/2025-08-09 10-59-04.mkv'...
+10:59:19.484: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/yves/2025-08-09 10-59-04.mkv' stopped
+10:59:19.484: Output 'simple_file_output': stopping
+10:59:19.484: Output 'simple_file_output': Total frames output: 385
+10:59:19.484: Output 'simple_file_output': Total drawn frames: 228 (435 attempted)
+10:59:19.484: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 207 (47.6%)
+10:59:19.491: ==== Recording Stop ================================================
+10:59:19.611: libfdk_aac encoder destroyed
+11:00:02.559: ---------------------------------
+11:00:02.559: [H.264 encoder: 'simple_video_recording'] settings:
+11:00:02.559: 	encoder:      OpenH264
+11:00:02.559: 	rc_mode:      quality
+11:00:02.559: 	bitrate:      2500
+11:00:02.559: 	keyint_sec:   0
+11:00:02.559: 	profile:      main
+11:00:02.559: 	width:        1280
+11:00:02.559: 	height:       720
+11:00:02.559: 	ffmpeg opts:  
+11:00:02.559: 
+11:00:02.561: libfdk_aac encoder created
+11:00:02.561: libfdk_aac bitrate: 192, channels: 2
+11:00:02.571: ==== Recording Start ===============================================
+11:00:02.571: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/yves/2025-08-09 11-00-02.mkv'...
+11:01:45.102: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/yves/2025-08-09 11-00-02.mkv' stopped
+11:01:45.102: Output 'simple_file_output': stopping
+11:01:45.102: Output 'simple_file_output': Total frames output: 2528
+11:01:45.102: Output 'simple_file_output': Total drawn frames: 2095 (3076 attempted)
+11:01:45.102: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 981 (31.9%)
+11:01:45.107: ==== Recording Stop ================================================
+11:01:45.206: libfdk_aac encoder destroyed
+11:14:00.113: ---------------------------------
+11:14:00.114: [H.264 encoder: 'simple_video_recording'] settings:
+11:14:00.114: 	encoder:      OpenH264
+11:14:00.114: 	rc_mode:      quality
+11:14:00.114: 	bitrate:      2500
+11:14:00.114: 	keyint_sec:   0
+11:14:00.114: 	profile:      main
+11:14:00.114: 	width:        1280
+11:14:00.114: 	height:       720
+11:14:00.114: 	ffmpeg opts:  
+11:14:00.114: 
+11:14:00.116: libfdk_aac encoder created
+11:14:00.116: libfdk_aac bitrate: 192, channels: 2
+11:14:00.128: ==== Recording Start ===============================================
+11:14:00.128: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/yves/2025-08-09 11-14-00.mkv'...
+11:14:08.658: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/yves/2025-08-09 11-14-00.mkv' stopped
+11:14:08.659: Output 'simple_file_output': stopping
+11:14:08.659: Output 'simple_file_output': Total frames output: 240
+11:14:08.659: Output 'simple_file_output': Total drawn frames: 132 (256 attempted)
+11:14:08.659: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 124 (48.4%)
+11:14:08.678: ==== Recording Stop ================================================
+11:14:08.776: libfdk_aac encoder destroyed
+11:14:26.760: ---------------------------------
+11:14:26.760: [H.264 encoder: 'simple_video_recording'] settings:
+11:14:26.760: 	encoder:      OpenH264
+11:14:26.760: 	rc_mode:      quality
+11:14:26.760: 	bitrate:      2500
+11:14:26.760: 	keyint_sec:   0
+11:14:26.760: 	profile:      main
+11:14:26.760: 	width:        1280
+11:14:26.760: 	height:       720
+11:14:26.760: 	ffmpeg opts:  
+11:14:26.760: 
+11:14:26.761: libfdk_aac encoder created
+11:14:26.761: libfdk_aac bitrate: 192, channels: 2
+11:14:26.771: ==== Recording Start ===============================================
+11:14:26.771: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/yves/2025-08-09 11-14-26.mkv'...
+11:16:50.176: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/yves/2025-08-09 11-14-26.mkv' stopped
+11:16:50.176: Output 'simple_file_output': stopping
+11:16:50.176: Output 'simple_file_output': Total frames output: 3385
+11:16:50.176: Output 'simple_file_output': Total drawn frames: 2885 (4302 attempted)
+11:16:50.176: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 1417 (32.9%)
+11:16:50.178: ==== Recording Stop ================================================
+11:16:50.259: libfdk_aac encoder destroyed
+16:21:03.041: [pipewire] Stream 0x55fac0146c30 state: "paused" (error: none)
+23:17:24.918: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+23:17:24.918: 
+16:22:01.236: ==== Shutting down ==================================================
+16:22:01.263: pulse-input: Stopped recording from 'alsa_output.pci-0000_07_00.6.analog-stereo.monitor'
+16:22:01.263: pulse-input: Got 4897944 packets with 5877532800 frames
+16:22:01.263: pulse-input: Stopped recording from 'alsa_input.pci-0000_07_00.6.analog-stereo'
+16:22:01.263: pulse-input: Got 4897990 packets with 5877588000 frames
+16:22:01.267: [pipewire] Stream 0x55fac0146c30 state: "unconnected" (error: none)
+16:22:01.351: All scene data cleared
+16:22:01.351: ------------------------------------------------

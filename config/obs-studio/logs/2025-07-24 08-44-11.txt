@@ -1,0 +1,329 @@
+08:44:11.022: Platform: Wayland
+08:44:11.022: CPU Name: AMD Ryzen 7 5825U with Radeon Graphics
+08:44:11.023: CPU Speed: 1995.637MHz
+08:44:11.024: Physical Cores: 8, Logical Cores: 16
+08:44:11.024: Physical Memory: 30865MB Total, 3135MB Free
+08:44:11.024: Kernel Version: Linux 6.15.4-200.fc42.x86_64
+08:44:11.024: Distribution: "Fedora Linux" 42
+08:44:11.024: Desktop Environment: GNOME (gnome)
+08:44:11.024: Session Type: wayland
+08:44:11.027: Current Date/Time: 2025-07-24, 08:44:11 AM
+08:44:11.027: Browser Hardware Acceleration: true
+08:44:11.027: Qt Version: 6.9.1 (runtime), 6.9.1 (compiled)
+08:44:11.027: Portable mode: false
+08:44:11.120: OBS 31.1.1 (linux)
+08:44:11.120: ---------------------------------
+08:44:11.122: ---------------------------------
+08:44:11.122: audio settings reset:
+08:44:11.122: 	samples per sec: 48000
+08:44:11.122: 	speakers:        2
+08:44:11.122: 	max buffering:   960 milliseconds
+08:44:11.122: 	buffering type:  dynamically increasing
+08:44:11.132: ---------------------------------
+08:44:11.132: Initializing OpenGL...
+08:44:11.132: Using EGL/Wayland
+08:44:11.221: Initialized EGL 1.5
+08:44:11.256: Loading up OpenGL on adapter AMD AMD Radeon Graphics (radeonsi, renoir, ACO, DRM 3.63, 6.15.4-200.fc42.x86_64)
+08:44:11.256: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 25.1.4, shading language 4.60
+08:44:11.536: ---------------------------------
+08:44:11.536: video settings reset:
+08:44:11.536: 	base resolution:   1920x1080
+08:44:11.536: 	output resolution: 1280x720
+08:44:11.536: 	downscale filter:  Bicubic
+08:44:11.536: 	fps:               30/1
+08:44:11.536: 	format:            NV12
+08:44:11.536: 	YUV mode:          Rec. 709/Partial
+08:44:11.537: NV12 texture support enabled
+08:44:11.537: P010 texture support not available
+08:44:11.546: Audio monitoring device:
+08:44:11.546: 	name: Default
+08:44:11.546: 	id: default
+08:44:11.550: ---------------------------------
+08:44:11.586: Failed to load 'en-US' text for module: 'decklink-captions.so'
+08:44:11.619: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+08:44:11.651: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+08:44:11.651: Failed to initialize module 'decklink.so'
+08:44:12.096: [pipewire] Available capture sources:
+08:44:12.096: [pipewire]     - Monitor source
+08:44:12.096: [pipewire]     - Window source
+08:44:12.172: v4l2loopback not installed, virtual camera not registered
+08:44:12.476: VAAPI: API version 1.22
+08:44:12.477: FFmpeg VAAPI H264 encoding not supported
+08:44:12.485: FFmpeg VAAPI AV1 encoding not supported
+08:44:12.493: FFmpeg VAAPI HEVC encoding not supported
+08:44:12.607: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+08:44:12.607: 
+08:44:12.607: NVENC not supported
+08:44:12.607: Failed to initialize module 'obs-nvenc.so'
+08:44:12.939: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.6.2 | RPC Version: 1)
+08:44:12.939: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.9.1 | Qt version (run-time): 6.9.1
+08:44:12.939: [obs-websocket] [obs_module_load] Linked ASIO Version: 103002
+08:44:12.939: DEPRECATION: obs_frontend_get_global_config is deprecated. Read from global or user configuration explicitly instead.
+08:44:12.951: [obs-websocket] [obs_module_load] Module loaded.
+08:44:13.071: [vlc-video]: VLC 3.0.21 Vetinari found, VLC video source enabled
+08:44:13.071: ---------------------------------
+08:44:13.071:   Loaded Modules:
+08:44:13.071:     vlc-video.so
+08:44:13.071:     text-freetype2.so
+08:44:13.071:     rtmp-services.so
+08:44:13.071:     obs-websocket.so
+08:44:13.071:     obs-webrtc.so
+08:44:13.071:     obs-webkitgtk.so
+08:44:13.071:     obs-vst.so
+08:44:13.071:     obs-transitions.so
+08:44:13.071:     obs-qsv11.so
+08:44:13.071:     obs-outputs.so
+08:44:13.071:     obs-libfdk.so
+08:44:13.071:     obs-filters.so
+08:44:13.071:     obs-ffmpeg.so
+08:44:13.071:     linux-v4l2.so
+08:44:13.071:     linux-pulseaudio.so
+08:44:13.071:     linux-pipewire.so
+08:44:13.071:     linux-jack.so
+08:44:13.071:     linux-capture.so
+08:44:13.071:     linux-alsa.so
+08:44:13.071:     image-source.so
+08:44:13.071:     frontend-tools.so
+08:44:13.072:     decklink-output-ui.so
+08:44:13.072:     decklink-captions.so
+08:44:13.072: ---------------------------------
+08:44:13.072: ---------------------------------
+08:44:13.072: Available Encoders:
+08:44:13.072:   Video Encoders:
+08:44:13.072: 	- ffmpeg_openh264 (OpenH264)
+08:44:13.072: 	- ffmpeg_svt_av1 (SVT-AV1)
+08:44:13.072: 	- ffmpeg_aom_av1 (AOM AV1)
+08:44:13.072:   Audio Encoders:
+08:44:13.072: 	- ffmpeg_aac (FFmpeg AAC)
+08:44:13.072: 	- ffmpeg_opus (FFmpeg Opus)
+08:44:13.072: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+08:44:13.072: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+08:44:13.072: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+08:44:13.072: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+08:44:13.072: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+08:44:13.072: 	- libfdk_aac (libfdk AAC)
+08:44:13.072: ==== Startup complete ===============================================
+08:44:13.131: All scene data cleared
+08:44:13.131: ------------------------------------------------
+08:44:13.144: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.6) 15.0.0'
+08:44:13.144: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+08:44:13.144: pulse-input: Started recording from 'alsa_output.pci-0000_07_00.6.analog-stereo.monitor' (default)
+08:44:13.144: [Loaded global audio device]: 'Desktop Audio'
+08:44:13.145: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.6) 15.0.0'
+08:44:13.145: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+08:44:13.145: pulse-input: Started recording from 'alsa_input.pci-0000_07_00.6.analog-stereo' (default)
+08:44:13.145: [Loaded global audio device]: 'Mic/Aux'
+08:44:13.148: Switched to scene 'Scene'
+08:44:13.148: ------------------------------------------------
+08:44:13.148: Loaded scenes:
+08:44:13.148: - scene 'Scene':
+08:44:13.148: ------------------------------------------------
+08:44:13.725: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+08:44:13.725: 
+12:12:50.828: PipeWire initialized
+12:12:50.831: User added source 'Screen Capture (PipeWire)' (pipewire-screen-capture-source) to scene 'Scene'
+12:12:50.875: [pipewire] Screencast session created
+12:12:50.900: [pipewire] Asking for monitor and window
+12:13:12.575: [pipewire] source selected, setting up screencast
+12:13:12.586: [pipewire] Server version: 1.4.6
+12:13:12.586: [pipewire] Library version: 1.4.6
+12:13:12.586: [pipewire] Header version: 1.4.6
+12:13:12.586: [pipewire] Created stream 0x564be55c4640
+12:13:12.586: [pipewire] Stream 0x564be55c4640 state: "connecting" (error: none)
+12:13:12.586: [pipewire] Playing stream 0x564be55c4640
+12:13:12.587: [pipewire] Stream 0x564be55c4640 state: "paused" (error: none)
+12:13:12.608: [pipewire] Negotiated format:
+12:13:12.608: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+12:13:12.608: [pipewire]     Modifier: 0x0
+12:13:12.608: [pipewire]     Size: 1920x1080
+12:13:12.608: [pipewire]     Framerate: 0/1
+12:13:12.609: [pipewire] Negotiated format:
+12:13:12.609: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+12:13:12.609: [pipewire]     Modifier: 0x200000000401a01
+12:13:12.609: [pipewire]     Size: 1920x1080
+12:13:12.609: [pipewire]     Framerate: 0/1
+12:13:12.626: [pipewire] Stream 0x564be55c4640 state: "streaming" (error: none)
+12:17:09.112: ---------------------------------
+12:17:09.112: [H.264 encoder: 'simple_video_stream'] settings:
+12:17:09.112: 	encoder:      OpenH264
+12:17:09.112: 	rc_mode:      quality
+12:17:09.112: 	bitrate:      2569
+12:17:09.112: 	keyint_sec:   2
+12:17:09.112: 	profile:      main
+12:17:09.112: 	width:        1280
+12:17:09.112: 	height:       720
+12:17:09.112: 	ffmpeg opts:  
+12:17:09.112: 
+12:17:09.113: libfdk_aac encoder created
+12:17:09.113: libfdk_aac bitrate: 160, channels: 2
+12:17:09.117: ==== Recording Start ===============================================
+12:17:09.117: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/yves/2025-07-24 12-17-09.mkv'...
+12:18:28.978: [pipewire] Stream 0x564be55c4640 state: "paused" (error: none)
+12:18:49.225: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/yves/2025-07-24 12-17-09.mkv' stopped
+12:18:49.225: Output 'simple_file_output': stopping
+12:18:49.225: Output 'simple_file_output': Total frames output: 2997
+12:18:49.225: Output 'simple_file_output': Total drawn frames: 2992 (3003 attempted)
+12:18:49.225: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 11 (0.4%)
+12:18:49.226: libfdk_aac encoder destroyed
+12:18:49.226: ==== Recording Stop ================================================
+12:19:19.466: Creating a popup with a parent, QWidgetWindow(0x564be0e57b70, name="OBSBasicWindow") which does not match the current topmost grabbing popup, QWidgetWindow(0x564be5c75b80, name="QMenuClassWindow") With some shell surface protocols, this is not allowed. The wayland QPA plugin is currently handling it by setting the parent to the topmost grabbing popup. Note, however, that this may cause positioning errors and popups closing unxpectedly. Please fix the transient parent of the popup.
+12:21:51.963: [pipewire] Stream 0x564be55c4640 state: "unconnected" (error: none)
+12:21:51.967: PipeWire initialized
+12:21:51.971: [pipewire] Screencast session created
+12:21:51.972: [pipewire] Asking for monitor and window
+12:21:55.623: [pipewire] source selected, setting up screencast
+12:21:55.632: [pipewire] Server version: 1.4.6
+12:21:55.632: [pipewire] Library version: 1.4.6
+12:21:55.632: [pipewire] Header version: 1.4.6
+12:21:55.632: [pipewire] Created stream 0x564be55d72d0
+12:21:55.632: [pipewire] Stream 0x564be55d72d0 state: "connecting" (error: none)
+12:21:55.633: [pipewire] Playing stream 0x564be55d72d0
+12:21:55.633: [pipewire] Stream 0x564be55d72d0 state: "paused" (error: none)
+12:21:55.655: [pipewire] Negotiated format:
+12:21:55.655: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+12:21:55.655: [pipewire]     Modifier: 0x0
+12:21:55.655: [pipewire]     Size: 1920x1080
+12:21:55.655: [pipewire]     Framerate: 0/1
+12:21:55.655: [pipewire] Negotiated format:
+12:21:55.656: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+12:21:55.656: [pipewire]     Modifier: 0x200000000401a01
+12:21:55.656: [pipewire]     Size: 1920x1080
+12:21:55.656: [pipewire]     Framerate: 0/1
+12:21:55.670: [pipewire] Stream 0x564be55d72d0 state: "streaming" (error: none)
+12:24:28.896: ---------------------------------
+12:24:28.896: [H.264 encoder: 'simple_video_stream'] settings:
+12:24:28.896: 	encoder:      OpenH264
+12:24:28.896: 	rc_mode:      quality
+12:24:28.896: 	bitrate:      2569
+12:24:28.896: 	keyint_sec:   2
+12:24:28.896: 	profile:      main
+12:24:28.896: 	width:        1280
+12:24:28.896: 	height:       720
+12:24:28.896: 	ffmpeg opts:  
+12:24:28.896: 
+12:24:28.897: libfdk_aac encoder created
+12:24:28.897: libfdk_aac bitrate: 160, channels: 2
+12:24:28.898: ==== Recording Start ===============================================
+12:24:28.898: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/yves/2025-07-24 12-24-28.mkv'...
+12:25:15.064: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/yves/2025-07-24 12-24-28.mkv' stopped
+12:25:15.064: Output 'simple_file_output': stopping
+12:25:15.064: Output 'simple_file_output': Total frames output: 1377
+12:25:15.064: Output 'simple_file_output': Total drawn frames: 1380 (1385 attempted)
+12:25:15.064: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 5 (0.4%)
+12:25:15.065: libfdk_aac encoder destroyed
+12:25:15.065: ==== Recording Stop ================================================
+12:25:22.036: ---------------------------------
+12:25:22.036: [H.264 encoder: 'simple_video_stream'] settings:
+12:25:22.036: 	encoder:      OpenH264
+12:25:22.036: 	rc_mode:      quality
+12:25:22.036: 	bitrate:      2569
+12:25:22.036: 	keyint_sec:   2
+12:25:22.036: 	profile:      main
+12:25:22.036: 	width:        1280
+12:25:22.036: 	height:       720
+12:25:22.036: 	ffmpeg opts:  
+12:25:22.036: 
+12:25:22.037: libfdk_aac encoder created
+12:25:22.037: libfdk_aac bitrate: 160, channels: 2
+12:25:22.039: ==== Recording Start ===============================================
+12:25:22.039: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/yves/2025-07-24 12-25-22.mkv'...
+12:26:37.005: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/yves/2025-07-24 12-25-22.mkv' stopped
+12:26:37.005: Output 'simple_file_output': stopping
+12:26:37.005: Output 'simple_file_output': Total frames output: 2154
+12:26:37.005: Output 'simple_file_output': Total drawn frames: 2220 (2249 attempted)
+12:26:37.005: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 29 (1.3%)
+12:26:37.005: libfdk_aac encoder destroyed
+12:26:37.006: ==== Recording Stop ================================================
+12:31:40.075: [pipewire] Stream 0x564be55d72d0 state: "paused" (error: none)
+13:22:12.992: Creating a popup with a parent, QWidgetWindow(0x564be0e57b70, name="OBSBasicWindow") which does not match the current topmost grabbing popup, QWidgetWindow(0x564be61ff0e0, name="QMenuClassWindow") With some shell surface protocols, this is not allowed. The wayland QPA plugin is currently handling it by setting the parent to the topmost grabbing popup. Note, however, that this may cause positioning errors and popups closing unxpectedly. Please fix the transient parent of the popup.
+13:22:58.190: Creating a popup with a parent, QWidgetWindow(0x564be0e57b70, name="OBSBasicWindow") which does not match the current topmost grabbing popup, QWidgetWindow(0x564be5635530, name="QMenuClassWindow") With some shell surface protocols, this is not allowed. The wayland QPA plugin is currently handling it by setting the parent to the topmost grabbing popup. Note, however, that this may cause positioning errors and popups closing unxpectedly. Please fix the transient parent of the popup.
+13:23:06.000: [pipewire] Stream 0x564be55d72d0 state: "unconnected" (error: none)
+13:23:06.004: PipeWire initialized
+13:23:06.007: [pipewire] Screencast session created
+13:23:06.007: [pipewire] Asking for monitor and window
+13:23:08.396: [pipewire] source selected, setting up screencast
+13:23:08.403: [pipewire] Server version: 1.4.6
+13:23:08.403: [pipewire] Library version: 1.4.6
+13:23:08.403: [pipewire] Header version: 1.4.6
+13:23:08.403: [pipewire] Created stream 0x564be5b99570
+13:23:08.403: [pipewire] Stream 0x564be5b99570 state: "connecting" (error: none)
+13:23:08.404: [pipewire] Playing stream 0x564be5b99570
+13:23:08.404: [pipewire] Stream 0x564be5b99570 state: "paused" (error: none)
+13:23:08.415: [pipewire] Negotiated format:
+13:23:08.415: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+13:23:08.415: [pipewire]     Modifier: 0x0
+13:23:08.415: [pipewire]     Size: 1920x1080
+13:23:08.415: [pipewire]     Framerate: 0/1
+13:23:08.416: [pipewire] Negotiated format:
+13:23:08.416: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+13:23:08.416: [pipewire]     Modifier: 0x200000000401a01
+13:23:08.416: [pipewire]     Size: 1920x1080
+13:23:08.416: [pipewire]     Framerate: 0/1
+13:23:08.427: [pipewire] Stream 0x564be5b99570 state: "streaming" (error: none)
+13:28:27.083: ---------------------------------
+13:28:27.083: [H.264 encoder: 'simple_video_stream'] settings:
+13:28:27.083: 	encoder:      OpenH264
+13:28:27.083: 	rc_mode:      quality
+13:28:27.083: 	bitrate:      2569
+13:28:27.083: 	keyint_sec:   2
+13:28:27.083: 	profile:      main
+13:28:27.083: 	width:        1280
+13:28:27.083: 	height:       720
+13:28:27.083: 	ffmpeg opts:  
+13:28:27.083: 
+13:28:27.085: libfdk_aac encoder created
+13:28:27.085: libfdk_aac bitrate: 160, channels: 2
+13:28:27.086: ==== Recording Start ===============================================
+13:28:27.086: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/yves/2025-07-24 13-28-27.mkv'...
+13:28:46.370: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/yves/2025-07-24 13-28-27.mkv' stopped
+13:28:46.370: Output 'simple_file_output': stopping
+13:28:46.370: Output 'simple_file_output': Total frames output: 562
+13:28:46.370: Output 'simple_file_output': Total drawn frames: 574 (578 attempted)
+13:28:46.370: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 4 (0.7%)
+13:28:46.370: libfdk_aac encoder destroyed
+13:28:46.371: ==== Recording Stop ================================================
+13:33:24.293: ---------------------------------
+13:33:24.293: [H.264 encoder: 'simple_video_stream'] settings:
+13:33:24.293: 	encoder:      OpenH264
+13:33:24.293: 	rc_mode:      quality
+13:33:24.293: 	bitrate:      2569
+13:33:24.293: 	keyint_sec:   2
+13:33:24.293: 	profile:      main
+13:33:24.293: 	width:        1280
+13:33:24.293: 	height:       720
+13:33:24.293: 	ffmpeg opts:  
+13:33:24.293: 
+13:33:24.294: libfdk_aac encoder created
+13:33:24.294: libfdk_aac bitrate: 160, channels: 2
+13:33:24.295: ==== Recording Start ===============================================
+13:33:24.295: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/yves/2025-07-24 13-33-24.mkv'...
+13:35:24.154: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/yves/2025-07-24 13-33-24.mkv' stopped
+13:35:24.154: Output 'simple_file_output': stopping
+13:35:24.154: Output 'simple_file_output': Total frames output: 3568
+13:35:24.154: Output 'simple_file_output': Total drawn frames: 3589 (3596 attempted)
+13:35:24.154: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 7 (0.2%)
+13:35:24.154: libfdk_aac encoder destroyed
+13:35:24.155: ==== Recording Stop ================================================
+13:37:38.051: ---------------------------------
+13:37:38.051: [H.264 encoder: 'simple_video_stream'] settings:
+13:37:38.051: 	encoder:      OpenH264
+13:37:38.051: 	rc_mode:      quality
+13:37:38.051: 	bitrate:      2569
+13:37:38.051: 	keyint_sec:   2
+13:37:38.051: 	profile:      main
+13:37:38.051: 	width:        1280
+13:37:38.051: 	height:       720
+13:37:38.051: 	ffmpeg opts:  
+13:37:38.051: 
+13:37:38.052: libfdk_aac encoder created
+13:37:38.052: libfdk_aac bitrate: 160, channels: 2
+13:37:38.053: ==== Recording Start ===============================================
+13:37:38.054: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/yves/2025-07-24 13-37-38.mkv'...
+13:38:19.791: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/yves/2025-07-24 13-37-38.mkv' stopped
+13:38:19.791: Output 'simple_file_output': stopping
+13:38:19.791: Output 'simple_file_output': Total frames output: 1239
+13:38:19.791: Output 'simple_file_output': Total drawn frames: 1249 (1252 attempted)
+13:38:19.791: Output 'simple_file_output': Number of lagged frames due to rendering lag/stalls: 3 (0.2%)
+13:38:19.791: libfdk_aac encoder destroyed
+13:38:19.791: ==== Recording Stop ================================================
+13:39:46.957: [pipewire] Stream 0x564be5b99570 state: "paused" (error: none)

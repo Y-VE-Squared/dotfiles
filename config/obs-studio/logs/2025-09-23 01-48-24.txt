@@ -1,0 +1,366 @@
+01:48:24.229: Platform: Wayland
+01:48:24.229: CPU Name: AMD Ryzen 7 5825U with Radeon Graphics
+01:48:24.229: CPU Speed: 1996.008MHz
+01:48:24.230: Physical Cores: 8, Logical Cores: 16
+01:48:24.230: Physical Memory: 63070MB Total, 41133MB Free
+01:48:24.230: Kernel Version: Linux 6.16.7-200.fc42.x86_64
+01:48:24.230: Distribution: "Fedora Linux" 42
+01:48:24.230: Desktop Environment: niri (niri)
+01:48:24.230: Session Type: wayland
+01:48:24.235: Current Date/Time: 2025-09-23, 01:48:24 AM
+01:48:24.235: Browser Hardware Acceleration: true
+01:48:24.235: Qt Version: 6.9.1 (runtime), 6.9.1 (compiled)
+01:48:24.235: Portable mode: false
+01:48:24.345: OBS 31.1.1 (linux)
+01:48:24.345: ---------------------------------
+01:48:24.347: ---------------------------------
+01:48:24.347: audio settings reset:
+01:48:24.347: 	samples per sec: 48000
+01:48:24.347: 	speakers:        2
+01:48:24.347: 	max buffering:   960 milliseconds
+01:48:24.347: 	buffering type:  dynamically increasing
+01:48:24.357: ---------------------------------
+01:48:24.358: Initializing OpenGL...
+01:48:24.358: Using EGL/Wayland
+01:48:24.444: Initialized EGL 1.5
+01:48:24.480: Loading up OpenGL on adapter AMD AMD Radeon Graphics (radeonsi, renoir, ACO, DRM 3.64, 6.16.7-200.fc42.x86_64)
+01:48:24.480: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 25.1.7, shading language 4.60
+01:48:24.545: ---------------------------------
+01:48:24.545: video settings reset:
+01:48:24.545: 	base resolution:   1920x1080
+01:48:24.545: 	output resolution: 1920x1080
+01:48:24.545: 	downscale filter:  Bicubic
+01:48:24.545: 	fps:               60/1
+01:48:24.545: 	format:            NV12
+01:48:24.545: 	YUV mode:          Rec. 709/Partial
+01:48:24.546: NV12 texture support enabled
+01:48:24.546: P010 texture support not available
+01:48:24.556: Audio monitoring device:
+01:48:24.556: 	name: Default
+01:48:24.556: 	id: default
+01:48:24.557: obs-data.c: [obs_data_create_from_json_file_safe] attempting backup file
+01:48:24.558: ---------------------------------
+01:48:24.590: Failed to load 'en-US' text for module: 'decklink-captions.so'
+01:48:24.622: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+01:48:24.651: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+01:48:24.651: Failed to initialize module 'decklink.so'
+01:48:25.051: [pipewire] Available capture sources:
+01:48:25.051: [pipewire]     - Monitor source
+01:48:25.051: [pipewire]     - Window source
+01:48:25.125: v4l2loopback not installed, virtual camera not registered
+01:48:25.442: VAAPI: API version 1.22
+01:48:25.443: FFmpeg VAAPI H264 encoding not supported
+01:48:25.451: FFmpeg VAAPI AV1 encoding not supported
+01:48:25.458: FFmpeg VAAPI HEVC encoding not supported
+01:48:25.564: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: cannot open shared object file: No such file or directory
+01:48:25.564: 
+01:48:25.564: NVENC not supported
+01:48:25.564: Failed to initialize module 'obs-nvenc.so'
+01:48:25.889: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.6.2 | RPC Version: 1)
+01:48:25.889: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.9.1 | Qt version (run-time): 6.9.1
+01:48:25.889: [obs-websocket] [obs_module_load] Linked ASIO Version: 103002
+01:48:25.889: DEPRECATION: obs_frontend_get_global_config is deprecated. Read from global or user configuration explicitly instead.
+01:48:25.901: [obs-websocket] [obs_module_load] Module loaded.
+01:48:26.010: [vlc-video]: VLC 3.0.21 Vetinari found, VLC video source enabled
+01:48:26.010: ---------------------------------
+01:48:26.010:   Loaded Modules:
+01:48:26.010:     vlc-video.so
+01:48:26.010:     text-freetype2.so
+01:48:26.010:     rtmp-services.so
+01:48:26.010:     obs-websocket.so
+01:48:26.010:     obs-webrtc.so
+01:48:26.010:     obs-webkitgtk.so
+01:48:26.010:     obs-vst.so
+01:48:26.010:     obs-transitions.so
+01:48:26.010:     obs-qsv11.so
+01:48:26.010:     obs-outputs.so
+01:48:26.010:     obs-libfdk.so
+01:48:26.011:     obs-filters.so
+01:48:26.011:     obs-ffmpeg.so
+01:48:26.011:     linux-v4l2.so
+01:48:26.011:     linux-pulseaudio.so
+01:48:26.011:     linux-pipewire.so
+01:48:26.011:     linux-jack.so
+01:48:26.011:     linux-capture.so
+01:48:26.011:     linux-alsa.so
+01:48:26.011:     image-source.so
+01:48:26.011:     frontend-tools.so
+01:48:26.011:     decklink-output-ui.so
+01:48:26.011:     decklink-captions.so
+01:48:26.011: ---------------------------------
+01:48:26.011: ---------------------------------
+01:48:26.011: Available Encoders:
+01:48:26.011:   Video Encoders:
+01:48:26.011: 	- ffmpeg_openh264 (OpenH264)
+01:48:26.011: 	- ffmpeg_svt_av1 (SVT-AV1)
+01:48:26.011: 	- ffmpeg_aom_av1 (AOM AV1)
+01:48:26.011:   Audio Encoders:
+01:48:26.011: 	- ffmpeg_aac (FFmpeg AAC)
+01:48:26.011: 	- ffmpeg_opus (FFmpeg Opus)
+01:48:26.011: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+01:48:26.011: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+01:48:26.011: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+01:48:26.011: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+01:48:26.011: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+01:48:26.011: 	- libfdk_aac (libfdk AAC)
+01:48:26.011: ==== Startup complete ===============================================
+01:48:26.079: All scene data cleared
+01:48:26.079: ------------------------------------------------
+01:48:26.088: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.8) 15.0.0'
+01:48:26.088: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+01:48:26.088: pulse-input: Started recording from 'alsa_output.pci-0000_07_00.6.analog-stereo.monitor' (default)
+01:48:26.088: [Loaded global audio device]: 'Desktop Audio'
+01:48:26.089: pulse-input: Server name: 'PulseAudio (on PipeWire 1.4.8) 15.0.0'
+01:48:26.089: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+01:48:26.089: pulse-input: Started recording from 'alsa_input.pci-0000_07_00.6.analog-stereo' (default)
+01:48:26.089: [Loaded global audio device]: 'Mic/Aux'
+01:48:26.090: PipeWire initialized
+01:48:26.092: PipeWire initialized
+01:48:26.095: Switched to scene 'game'
+01:48:26.095: ------------------------------------------------
+01:48:26.095: Loaded scenes:
+01:48:26.095: - scene 'main':
+01:48:26.095:     - source: 'Screen Capture (PipeWire)' (pipewire-screen-capture-source)
+01:48:26.095: - scene 'filler1':
+01:48:26.095: - scene 'game':
+01:48:26.095:     - source: 'Screen Capture (PipeWire) 2' (pipewire-screen-capture-source)
+01:48:26.095: - scene 'filler2':
+01:48:26.095: - scene 'filler3':
+01:48:26.095: ------------------------------------------------
+01:48:26.296: [pipewire] Screencast session created
+01:48:26.296: [pipewire] Screencast session created
+01:48:26.321: [rtmp-services plugin] Successfully updated file 'services.json' (version 276)
+01:48:26.321: [rtmp-services plugin] Successfully updated package (version 276)
+01:48:26.413: [pipewire] Asking for monitor and window
+01:48:26.413: [pipewire] Asking for monitor and window
+01:48:26.695: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Desktop Audio)
+01:48:26.695: 
+01:48:32.210: [pipewire] source selected, setting up screencast
+01:48:32.221: [pipewire] Server version: 1.4.8
+01:48:32.221: [pipewire] Library version: 1.4.8
+01:48:32.221: [pipewire] Header version: 1.4.6
+01:48:32.221: [pipewire] Created stream 0x5633e887ab20
+01:48:32.222: [pipewire] Stream 0x5633e887ab20 state: "connecting" (error: none)
+01:48:32.222: [pipewire] Playing stream 0x5633e887ab20
+01:48:32.223: [pipewire] Stream 0x5633e887ab20 state: "paused" (error: none)
+01:48:32.294: [pipewire] Negotiated format:
+01:48:32.294: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+01:48:32.294: [pipewire]     Modifier: 0x0
+01:48:32.294: [pipewire]     Size: 1920x1080
+01:48:32.294: [pipewire]     Framerate: 0/1
+01:48:32.295: [pipewire] Negotiated format:
+01:48:32.295: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+01:48:32.295: [pipewire]     Modifier: 0x20000044051ba01
+01:48:32.295: [pipewire]     Size: 1920x1080
+01:48:32.295: [pipewire]     Framerate: 0/1
+01:48:32.351: [pipewire] Stream 0x5633e887ab20 state: "streaming" (error: none)
+01:51:25.048: [pipewire] source selected, setting up screencast
+01:51:25.056: [pipewire] Server version: 1.4.8
+01:51:25.056: [pipewire] Library version: 1.4.8
+01:51:25.056: [pipewire] Header version: 1.4.6
+01:51:25.056: [pipewire] Created stream 0x5633e88c2690
+01:51:25.056: [pipewire] Stream 0x5633e88c2690 state: "connecting" (error: none)
+01:51:25.057: [pipewire] Playing stream 0x5633e88c2690
+01:51:25.058: [pipewire] Stream 0x5633e88c2690 state: "paused" (error: none)
+01:51:25.158: [pipewire] Negotiated format:
+01:51:25.158: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+01:51:25.158: [pipewire]     Modifier: 0x0
+01:51:25.158: [pipewire]     Size: 1920x1080
+01:51:25.158: [pipewire]     Framerate: 0/1
+01:51:25.159: [pipewire] Negotiated format:
+01:51:25.159: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+01:51:25.159: [pipewire]     Modifier: 0x20000044051ba01
+01:51:25.159: [pipewire]     Size: 1920x1080
+01:51:25.159: [pipewire]     Framerate: 0/1
+01:51:25.216: [pipewire] Stream 0x5633e88c2690 state: "streaming" (error: none)
+02:53:13.450: ---------------------------------
+02:53:13.450: [H.264 encoder: 'simple_video_recording'] settings:
+02:53:13.450: 	encoder:      OpenH264
+02:53:13.450: 	rc_mode:      quality
+02:53:13.450: 	bitrate:      2500
+02:53:13.450: 	keyint_sec:   0
+02:53:13.450: 	profile:      main
+02:53:13.450: 	width:        1920
+02:53:13.450: 	height:       1080
+02:53:13.450: 	ffmpeg opts:  
+02:53:13.450: 
+02:53:13.453: libfdk_aac encoder created
+02:53:13.453: libfdk_aac bitrate: 192, channels: 2
+02:53:13.519: ==== Recording Start ===============================================
+02:53:13.519: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/yves/2025-09-23 02-53-13.mkv'...
+02:53:57.561: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/yves/2025-09-23 02-53-13.mkv' stopped
+02:53:57.561: Output 'simple_file_output': stopping
+02:53:57.561: Output 'simple_file_output': Total frames output: 2603
+02:53:57.561: Output 'simple_file_output': Total drawn frames: 2643
+02:53:57.562: ==== Recording Stop ================================================
+02:53:57.567: libfdk_aac encoder destroyed
+03:08:11.496: ---------------------------------
+03:08:11.496: [H.264 encoder: 'simple_video_recording'] settings:
+03:08:11.496: 	encoder:      OpenH264
+03:08:11.496: 	rc_mode:      quality
+03:08:11.496: 	bitrate:      2500
+03:08:11.496: 	keyint_sec:   0
+03:08:11.496: 	profile:      main
+03:08:11.496: 	width:        1920
+03:08:11.496: 	height:       1080
+03:08:11.496: 	ffmpeg opts:  
+03:08:11.496: 
+03:08:11.497: libfdk_aac encoder created
+03:08:11.497: libfdk_aac bitrate: 192, channels: 2
+03:08:11.501: ==== Recording Start ===============================================
+03:08:11.501: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/yves/2025-09-23 03-08-11.mkv'...
+03:10:39.970: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/yves/2025-09-23 03-08-11.mkv' stopped
+03:10:39.970: Output 'simple_file_output': stopping
+03:10:39.970: Output 'simple_file_output': Total frames output: 8797
+03:10:39.970: Output 'simple_file_output': Total drawn frames: 8908
+03:10:39.971: libfdk_aac encoder destroyed
+03:10:39.973: ==== Recording Stop ================================================
+03:10:43.117: ---------------------------------
+03:10:43.117: [H.264 encoder: 'simple_video_recording'] settings:
+03:10:43.117: 	encoder:      OpenH264
+03:10:43.117: 	rc_mode:      quality
+03:10:43.117: 	bitrate:      2500
+03:10:43.117: 	keyint_sec:   0
+03:10:43.117: 	profile:      main
+03:10:43.117: 	width:        1920
+03:10:43.117: 	height:       1080
+03:10:43.117: 	ffmpeg opts:  
+03:10:43.117: 
+03:10:43.119: libfdk_aac encoder created
+03:10:43.119: libfdk_aac bitrate: 192, channels: 2
+03:10:43.123: ==== Recording Start ===============================================
+03:10:43.123: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/yves/2025-09-23 03-10-43.mkv'...
+03:16:07.609: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/yves/2025-09-23 03-10-43.mkv' stopped
+03:16:07.609: Output 'simple_file_output': stopping
+03:16:07.609: Output 'simple_file_output': Total frames output: 19202
+03:16:07.609: Output 'simple_file_output': Total drawn frames: 19469
+03:16:07.610: ==== Recording Stop ================================================
+03:16:07.618: libfdk_aac encoder destroyed
+03:17:51.241: ---------------------------------
+03:17:51.242: [H.264 encoder: 'simple_video_recording'] settings:
+03:17:51.242: 	encoder:      OpenH264
+03:17:51.242: 	rc_mode:      quality
+03:17:51.242: 	bitrate:      2500
+03:17:51.242: 	keyint_sec:   0
+03:17:51.242: 	profile:      main
+03:17:51.242: 	width:        1920
+03:17:51.242: 	height:       1080
+03:17:51.242: 	ffmpeg opts:  
+03:17:51.242: 
+03:17:51.243: libfdk_aac encoder created
+03:17:51.243: libfdk_aac bitrate: 192, channels: 2
+03:17:51.247: ==== Recording Start ===============================================
+03:17:51.247: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/yves/2025-09-23 03-17-51.mkv'...
+03:21:58.434: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/yves/2025-09-23 03-17-51.mkv' stopped
+03:21:58.434: Output 'simple_file_output': stopping
+03:21:58.434: Output 'simple_file_output': Total frames output: 14638
+03:21:58.434: Output 'simple_file_output': Total drawn frames: 14831
+03:21:58.436: libfdk_aac encoder destroyed
+03:21:58.438: ==== Recording Stop ================================================
+03:22:58.270: ---------------------------------
+03:22:58.270: [H.264 encoder: 'simple_video_recording'] settings:
+03:22:58.270: 	encoder:      OpenH264
+03:22:58.270: 	rc_mode:      quality
+03:22:58.270: 	bitrate:      2500
+03:22:58.270: 	keyint_sec:   0
+03:22:58.270: 	profile:      main
+03:22:58.270: 	width:        1920
+03:22:58.270: 	height:       1080
+03:22:58.270: 	ffmpeg opts:  
+03:22:58.270: 
+03:22:58.271: libfdk_aac encoder created
+03:22:58.271: libfdk_aac bitrate: 192, channels: 2
+03:22:58.276: ==== Recording Start ===============================================
+03:22:58.276: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/yves/2025-09-23 03-22-58.mkv'...
+03:25:24.835: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/yves/2025-09-23 03-22-58.mkv' stopped
+03:25:24.835: Output 'simple_file_output': stopping
+03:25:24.835: Output 'simple_file_output': Total frames output: 8575
+03:25:24.835: Output 'simple_file_output': Total drawn frames: 8793
+03:25:24.836: libfdk_aac encoder destroyed
+03:25:24.841: ==== Recording Stop ================================================
+03:25:50.614: ---------------------------------
+03:25:50.614: [H.264 encoder: 'simple_video_recording'] settings:
+03:25:50.614: 	encoder:      OpenH264
+03:25:50.614: 	rc_mode:      quality
+03:25:50.614: 	bitrate:      2500
+03:25:50.614: 	keyint_sec:   0
+03:25:50.614: 	profile:      main
+03:25:50.614: 	width:        1920
+03:25:50.614: 	height:       1080
+03:25:50.614: 	ffmpeg opts:  
+03:25:50.614: 
+03:25:50.616: libfdk_aac encoder created
+03:25:50.616: libfdk_aac bitrate: 192, channels: 2
+03:25:50.620: ==== Recording Start ===============================================
+03:25:50.621: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/yves/2025-09-23 03-25-50.mkv'...
+03:26:16.492: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/yves/2025-09-23 03-25-50.mkv' stopped
+03:26:16.492: Output 'simple_file_output': stopping
+03:26:16.492: Output 'simple_file_output': Total frames output: 1536
+03:26:16.492: Output 'simple_file_output': Total drawn frames: 1553
+03:26:16.497: libfdk_aac encoder destroyed
+03:26:16.498: ==== Recording Stop ================================================
+03:48:22.797: Settings changed (outputs)
+03:48:22.797: ------------------------------------------------
+03:48:46.631: ---------------------------------
+03:48:46.631: [H.264 encoder: 'simple_video_recording'] settings:
+03:48:46.631: 	encoder:      OpenH264
+03:48:46.631: 	rc_mode:      quality
+03:48:46.631: 	bitrate:      2500
+03:48:46.631: 	keyint_sec:   0
+03:48:46.631: 	profile:      main
+03:48:46.631: 	width:        1920
+03:48:46.631: 	height:       1080
+03:48:46.631: 	ffmpeg opts:  
+03:48:46.631: 
+03:48:46.635: libfdk_aac encoder created
+03:48:46.635: libfdk_aac bitrate: 192, channels: 2
+03:48:46.638: ==== Recording Start ===============================================
+03:48:46.638: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/yves/2025-09-23 03-48-46.mkv'...
+03:48:59.362: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/yves/2025-09-23 03-48-46.mkv' stopped
+03:48:59.363: Output 'simple_file_output': stopping
+03:48:59.363: Output 'simple_file_output': Total frames output: 757
+03:48:59.363: Output 'simple_file_output': Total drawn frames: 763
+03:48:59.368: libfdk_aac encoder destroyed
+03:48:59.368: ==== Recording Stop ================================================
+03:48:59.601: ---------------------------------
+03:48:59.601: [H.264 encoder: 'simple_video_recording'] settings:
+03:48:59.601: 	encoder:      OpenH264
+03:48:59.601: 	rc_mode:      quality
+03:48:59.601: 	bitrate:      2500
+03:48:59.601: 	keyint_sec:   0
+03:48:59.601: 	profile:      main
+03:48:59.601: 	width:        1920
+03:48:59.601: 	height:       1080
+03:48:59.601: 	ffmpeg opts:  
+03:48:59.601: 
+03:48:59.604: libfdk_aac encoder created
+03:48:59.604: libfdk_aac bitrate: 192, channels: 2
+03:48:59.607: ==== Recording Start ===============================================
+03:48:59.607: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/yves/2025-09-23 03-48-59.mkv'...
+03:49:33.503: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/yves/2025-09-23 03-48-59.mkv' stopped
+03:49:33.503: Output 'simple_file_output': stopping
+03:49:33.503: Output 'simple_file_output': Total frames output: 2007
+03:49:33.503: Output 'simple_file_output': Total drawn frames: 2033
+03:49:33.508: libfdk_aac encoder destroyed
+03:49:33.508: ==== Recording Stop ================================================
+03:50:48.090: ---------------------------------
+03:50:48.090: [H.264 encoder: 'simple_video_recording'] settings:
+03:50:48.090: 	encoder:      OpenH264
+03:50:48.090: 	rc_mode:      quality
+03:50:48.090: 	bitrate:      2500
+03:50:48.090: 	keyint_sec:   0
+03:50:48.090: 	profile:      main
+03:50:48.090: 	width:        1920
+03:50:48.090: 	height:       1080
+03:50:48.090: 	ffmpeg opts:  
+03:50:48.090: 
+03:50:48.094: libfdk_aac encoder created
+03:50:48.094: libfdk_aac bitrate: 192, channels: 2
+03:50:48.098: ==== Recording Start ===============================================
+03:50:48.098: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/yves/2025-09-23 03-50-48.mkv'...
+03:52:33.069: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/yves/2025-09-23 03-50-48.mkv' stopped
+03:52:33.070: Output 'simple_file_output': stopping
+03:52:33.070: Output 'simple_file_output': Total frames output: 6235
+03:52:33.070: Output 'simple_file_output': Total drawn frames: 6298
+03:52:33.074: libfdk_aac encoder destroyed
+03:52:33.076: ==== Recording Stop ================================================

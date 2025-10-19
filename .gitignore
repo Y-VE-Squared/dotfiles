@@ -1,0 +1,30 @@
+#
+config/import.sh
+config/0_shell-ext/prelude*
+
+# asdfs and some homestuffs
+config/0_shell-ext/asdf*
+config/0_shell-ext/haitian*
+config/0_shell-ext/home*
+config/rainmeter
+config/emacs/eln-cache
+config/emacs/elpaca
+config/emacs/auto-save-list
+
+## Core latex/pdflatex auxiliary files:
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.bak
+*.sav
+*~
+
+cmd_palette/.*
+cmd_palette/0_*
+
+# mercurial ignore
+.hgignore

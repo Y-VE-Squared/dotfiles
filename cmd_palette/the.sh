@@ -1,6 +1,7 @@
 #!/bin/bash
 
-aplay -q $RES_DIR/memes/sfx/spongeTHE.wav &
-sleep 4.3 && echo -e '\n' && cat ~/THE.txt && echo -e '\n'
+zt=THE.txt
+zv=$RES_DIR/memes/sfx/spongeTHE.flac
 
-
+#aplay -q $zv &
+sleep 4.3 && echo -e '\n' && cat $z && echo -e '\n'

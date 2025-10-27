@@ -1,0 +1,38 @@
+# can gitignore ignore itself?
+#.gitignore
+
+# files ending with tilde
+*~
+
+# dotfiles inside
+cmd_palette/.*
+config/0_shell-ext/.*
+
+
+# asdf and homestuffs and aux
+config/0_shell-ext/asdf*
+config/0_shell-ext/haitian*
+config/0_shell-ext/home*
+config/0_shell-ext/0*
+config/0_shell-ext/aux*
+config/import.sh
+
+# memes config being overhauled
+config/0_shell-ext/meme*
+
+# others (unsorted)
+config/0_shell-ext/prelude*
+config/0_shell-ext/raspi*
+config/bash/bash_aliases
+
+# 
+config/emacs/elpaca
+config/emacs/eln-cache
+config/emacs/url
+
+# configs not done yet
+config/conky
+config/fish
+config/rainmeter
+config/wlogout
+config/xfce4

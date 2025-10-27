@@ -17,6 +17,7 @@ this one is messy as it had changed systems pre-backup-standardization
 
 ## res
 resource directory, contains images and audio files
+has stuff for Renoise as well
 
 ## todo
 todo: configure shell-ext for fish,zsh

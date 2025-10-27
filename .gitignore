@@ -1,4 +1,5 @@
 #
+.gitignore
 config/import.sh
 config/0_shell-ext/prelude*
 
@@ -6,9 +7,13 @@ config/0_shell-ext/prelude*
 config/0_shell-ext/asdf*
 config/0_shell-ext/home*
 config/rainmeter
+
+# others (unsorted)
 config/emacs/eln-cache
 config/emacs/elpaca
 config/emacs/auto-save-list
+config/fish
+config/fcitx5
 
 ## Core latex/pdflatex auxiliary files:
 *.aux
@@ -26,6 +31,8 @@ cmd_palette/.*
 cmd_palette/0_*
 config/obs-studio/profiler_data
 config/obs-studio/logs
+config/fish
+config/fcitx5
 
 # mercurial ignore
 .hgignore

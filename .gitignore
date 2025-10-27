@@ -4,7 +4,6 @@ config/0_shell-ext/prelude*
 
 # asdfs and some homestuffs
 config/0_shell-ext/asdf*
-config/0_shell-ext/haitian*
 config/0_shell-ext/home*
 config/rainmeter
 config/emacs/eln-cache
@@ -25,6 +24,8 @@ config/emacs/auto-save-list
 
 cmd_palette/.*
 cmd_palette/0_*
+config/obs-studio/profiler_data
+config/obs-studio/logs
 
 # mercurial ignore
 .hgignore

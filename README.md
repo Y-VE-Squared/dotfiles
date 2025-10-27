@@ -15,6 +15,8 @@ some use env vars that are privately set
 ### config/tmux
 this one is messy as it had changed systems pre-backup-standardization
 
+## res
+resource directory, contains images and audio files
 
 ## todo
 todo: configure shell-ext for fish,zsh

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SampleModulationSet doc_version="5">
+  <Devices>
+    <SampleMixerModulationDevice type="SampleMixerModulationDevice">
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Volume>
+        <Value>0.385499984</Value>
+        <Visualization>Device only</Visualization>
+      </Volume>
+      <Panning>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </Panning>
+      <Pitch>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </Pitch>
+      <PitchModulationRange>60</PitchModulationRange>
+      <Cutoff>
+        <Value>52.6414795</Value>
+        <Visualization>Device only</Visualization>
+      </Cutoff>
+      <Resonance>
+        <Value>87.3759537</Value>
+        <Visualization>Device only</Visualization>
+      </Resonance>
+      <Drive>
+        <Value>19.6638107</Value>
+        <Visualization>Device only</Visualization>
+      </Drive>
+    </SampleMixerModulationDevice>
+    <SampleEnvelopeModulationDevice type="SampleEnvelopeModulationDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>0.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Target>Pitch</Target>
+      <Operator>+</Operator>
+      <Bipolar>false</Bipolar>
+      <TempoSynced>true</TempoSynced>
+      <SustainIsActive>false</SustainIsActive>
+      <SustainPos>0</SustainPos>
+      <LoopStart>0</LoopStart>
+      <LoopEnd>220</LoopEnd>
+      <LoopMode>Off</LoopMode>
+      <Decay>
+        <Value>23.9360008</Value>
+        <Visualization>Device only</Visualization>
+      </Decay>
+      <Nodes>
+        <PlayMode>Points</PlayMode>
+        <Length>843</Length>
+        <ValueQuantum>0.0</ValueQuantum>
+        <Polarity>Unipolar</Polarity>
+        <Points>
+          <Point>0,1.0,0.0</Point>
+          <Point>32,0.666999996,0.0</Point>
+          <Point>64,0.472000003,0.0</Point>
+          <Point>96,0.333299994,0.0</Point>
+          <Point>128,0.225999996,0.0</Point>
+          <Point>160,0.137999997,0.0</Point>
+          <Point>192,0.064000003,0.0</Point>
+          <Point>224,0.0,0.0</Point>
+        </Points>
+      </Nodes>
+    </SampleEnvelopeModulationDevice>
+    <SampleEnvelopeModulationDevice type="SampleEnvelopeModulationDevice">
+      <CustomDeviceName>atari-slide-down</CustomDeviceName>
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>true</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Target>Pitch</Target>
+      <Operator>+</Operator>
+      <Bipolar>false</Bipolar>
+      <TempoSynced>true</TempoSynced>
+      <SustainIsActive>false</SustainIsActive>
+      <SustainPos>0</SustainPos>
+      <LoopStart>0</LoopStart>
+      <LoopEnd>220</LoopEnd>
+      <LoopMode>Off</LoopMode>
+      <Decay>
+        <Value>23.9360008</Value>
+        <Visualization>Device only</Visualization>
+      </Decay>
+      <Nodes>
+        <PlayMode>Points</PlayMode>
+        <Length>1025</Length>
+        <ValueQuantum>0.0</ValueQuantum>
+        <Polarity>Unipolar</Polarity>
+        <Points>
+          <Point>0,1.0,0.0</Point>
+          <Point>32,0.800000012,0.0</Point>
+          <Point>64,0.683000028,0.0</Point>
+          <Point>96,0.600000024,0.0</Point>
+          <Point>128,0.535600007,0.0</Point>
+          <Point>160,0.48300001,0.0</Point>
+          <Point>192,0.438549995,0.0</Point>
+          <Point>224,0.400000006,0.0</Point>
+          <Point>258,0.365999997,0.0</Point>
+          <Point>290,0.335600019,0.0</Point>
+          <Point>322,0.308099985,0.0</Point>
+          <Point>354,0.282999992,0.0</Point>
+          <Point>386,0.25999999,0.0</Point>
+          <Point>418,0.238499999,0.0</Point>
+          <Point>450,0.218600005,0.0</Point>
+          <Point>482,0.199999988,0.0</Point>
+          <Point>513,0.182500005,0.0</Point>
+          <Point>545,0.165999994,0.0</Point>
+          <Point>577,0.150399998,0.0</Point>
+          <Point>609,0.135600001,0.0</Point>
+          <Point>641,0.1215,0.0</Point>
+          <Point>673,0.108099997,0.0</Point>
+          <Point>705,0.0952999964,0.0</Point>
+          <Point>737,0.0829999968,0.0</Point>
+          <Point>768,0.0711999983,0.0</Point>
+          <Point>800,0.0599000007,0.0</Point>
+          <Point>832,0.0489999987,0.0</Point>
+          <Point>864,0.0384999998,0.0</Point>
+          <Point>896,0.0284000002,0.0</Point>
+          <Point>928,0.0186000001,0.0</Point>
+          <Point>960,0.0092000002,0.0</Point>
+          <Point>992,0.0,0.0</Point>
+          <Point>1055,0.666999996,0.0</Point>
+          <Point>1087,0.472000003,0.0</Point>
+          <Point>1119,0.333299994,0.0</Point>
+          <Point>1151,0.225999996,0.0</Point>
+          <Point>1183,0.137999997,0.0</Point>
+          <Point>1215,0.064000003,0.0</Point>
+          <Point>1247,0.0,0.0</Point>
+        </Points>
+      </Nodes>
+    </SampleEnvelopeModulationDevice>
+    <SampleEnvelopeModulationDevice type="SampleEnvelopeModulationDevice">
+      <IsMaximized>true</IsMaximized>
+      <IsSelected>false</IsSelected>
+      <SelectedPresetName>Init</SelectedPresetName>
+      <SelectedPresetLibrary>Bundled Content</SelectedPresetLibrary>
+      <SelectedPresetIsModified>true</SelectedPresetIsModified>
+      <IsActive>
+        <Value>1.0</Value>
+        <Visualization>Device only</Visualization>
+      </IsActive>
+      <Target>Volume</Target>
+      <Operator>*</Operator>
+      <Bipolar>false</Bipolar>
+      <TempoSynced>true</TempoSynced>
+      <SustainIsActive>false</SustainIsActive>
+      <SustainPos>535</SustainPos>
+      <LoopStart>0</LoopStart>
+      <LoopEnd>74</LoopEnd>
+      <LoopMode>Off</LoopMode>
+      <Decay>
+        <Value>23.9360008</Value>
+        <Visualization>Device only</Visualization>
+      </Decay>
+      <Nodes>
+        <PlayMode>Points</PlayMode>
+        <Length>1025</Length>
+        <ValueQuantum>0.0</ValueQuantum>
+        <Polarity>Unipolar</Polarity>
+        <Points>
+          <Point>0,1.0,0.0</Point>
+          <Point>1024,0.0,0.0</Point>
+        </Points>
+      </Nodes>
+    </SampleEnvelopeModulationDevice>
+  </Devices>
+  <Name>Set 01</Name>
+  <FilterType>0</FilterType>
+  <FilterBankVersion>3</FilterBankVersion>
+</SampleModulationSet>

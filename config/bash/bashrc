@@ -152,5 +152,3 @@ export XMODIFIERS=@im=ibus
 export XDG_DATA_DIRS="/usr/local/share:/usr/share"
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"

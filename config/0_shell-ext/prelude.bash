@@ -5,3 +5,4 @@
 #export WKST=10.221
 export SVR=10.229
 export SVR_RMT=76.100.188.208
+export Y_PORT=7776

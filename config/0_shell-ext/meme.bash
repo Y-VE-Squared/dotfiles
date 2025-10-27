@@ -1,3 +1,6 @@
+# todo: update to match new dir layout
+# todo: consolidate into fxn+param style
+
 z=$RES_DIR/memes/sfx
 [ -d "$z" ] && export MEME_SFX_DIR=$z
 #alias memes='cd $MEME_SFX_DIR'
@@ -19,5 +22,9 @@ alias tacobell="aplay -q $z/taco-bell_bong.wav &"
 alias undertaker="aplay -q $z/undertaker_bong.wav &"
 alias bronzong="tacobell"
 alias kccrashout="mpv ~/memes.local/kc-crashout.mp4"
+#meme-sfx() {
+#  echo "wip"
+#  echo $1
+#}
 
 z=;

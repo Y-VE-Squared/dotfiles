@@ -1,1 +1,0 @@
-/home/yves/.emacs.d/elpaca/repos/emacs-promise/promise-es6-extensions.el

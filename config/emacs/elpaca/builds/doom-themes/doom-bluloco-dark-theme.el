@@ -1,1 +1,0 @@
-/home/yves/.emacs.d/elpaca/repos/themes/themes/doom-bluloco-dark-theme.el

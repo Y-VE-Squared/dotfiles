@@ -1,1 +1,0 @@
-/home/yves/.emacs.d/elpaca/repos/Ayu-Theme-Emacs/ayu-dark-theme.el

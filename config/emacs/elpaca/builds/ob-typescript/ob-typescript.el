@@ -1,1 +1,0 @@
-/home/yves/.emacs.d/elpaca/repos/ob-typescript/ob-typescript.el

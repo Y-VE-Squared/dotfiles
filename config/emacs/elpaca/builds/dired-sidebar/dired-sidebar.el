@@ -1,1 +1,0 @@
-/home/yves/.emacs.d/elpaca/repos/dired-sidebar/dired-sidebar.el

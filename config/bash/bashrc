@@ -152,3 +152,8 @@ export XMODIFIERS=@im=ibus
 export XDG_DATA_DIRS="/usr/local/share:/usr/share"
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+<<<<<<< HEAD
+=======
+
+eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+>>>>>>> 2678192 (messy updates + gitignore update)

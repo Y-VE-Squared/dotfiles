@@ -1,0 +1,133 @@
+# prototype cmds & fxns here
+
+ahcommando () {
+    echo "for example, this"
+}
+
+keep_it () {
+    echo "i like this command, can i keep it?"
+}
+
+smell_instinct () {
+    echo -e "it\'s like another sensory system"
+}
+
+sibilant () {
+    echo "eh this lang is too hissy"
+}
+go_crazy () {
+    echo -e "${SYS_YELLOW}mag${SYS_CYAN}ic exi${SYS_WHITE}st${SYS_MAGENTA}s"
+}
+instinct () {
+    echo "just lock in"
+}
+meddle_this () {
+    echo -e "\n\n\n${SYS_YELLOW}xhqrbklbnm${SYS_CYAN}ooOoOOiii"
+}
+oh_my_shidd () {
+    c=".secret_example_dir"
+    d1=badabingafile
+    echo "kaboom"
+    mkdir $c
+    touch $c/$d1
+    mv $c/$d1 ~/$d1
+    printf "%s\n%s\n%s" "life has many doors" "yes" "can\'t you see\?" > ~/$d1
+}
+
+reciprocal_binary () {
+    buff0="7_qbuffer"
+    for i in {1..1023}; do
+        echo $(perl -e "printf \"%2x  %0b\n\", $i , (2**53)/$i;")
+    done | sed -e 's/0/./g' -e 's/1/o/g' > $buff0
+}
+
+monkey_face () {
+    true
+}
+
+huehhueh () {
+    true
+}
+
+corinthians () {
+    true
+}
+
+foo_foo_foo_frem_frem_frem () {
+    true
+}
+
+dingus () {
+    echo "dingus"
+}
+
+gade_salopri_sa () {
+    echo "gade salopri sa"
+}
+
+remoto_poof () {
+  local a=arstgmneio.txt
+  ssh $SVR
+  touch $a
+  exit
+}
+
+
+# ahcommando
+# keep_it
+# smell_instinct
+# sibilant
+# 
+# go_crazy
+# instinct
+# meddle_this
+# oh_my_shidd
+# reciprocal_binary
+
+# hey_a_fn
+
+hey_a_fn () { echo -e "check this out, whvvuvuvuvuvvsh"; echo -e "whvvuvuvuvvvvvsh"; echo "ok anyway here's a thing"; cat ~/sandbox.local/lab_lang/longwords.txt | awk 'NR % 2 == 0'
+emacsc cat ~/sandbox.local/1_refresh.sh; echo "hehehhehehe ok all done"; }
+
+
+feel () {
+  $1 && echo "yea" || echo "nah"
+}
+
+get_ntsc () {
+  echo $(perl -e "printf \"%f\",60*(111*36*36*36)/(60*60*60*24)")
+}
+
+extract_audio () {
+  x1="input-video.avi"
+  x2="output-audio.aac"
+  ffmpeg -i $x1 -vn -acodec copy $x2
+}
+
+take_sound_sample_from_vid () {
+  x1="sample.avi"
+  x2="sample.mp3"
+  t0=00:03:05
+  t=00:00:45.0
+  ffmpeg -i $x1 -ss $t0 -t $t -q:a 0 -map a $x2
+}
+clip_vid__wip () {
+  x1=$1
+  x2=$2
+  t0=$3
+  t=$4
+  ffmpeg -i $x1 -ss $t0 -t $t -c copy $x2
+}
+
+checksum_example () {
+  echo "how to do checksum with sha (example w\/ 256-bit):"
+  echo "shasum -a 256 file.thingy\n\n"
+  echo "you can do it like this too (note the star placement):"
+  echo "echo \"your_checksum_here *file.thingy \| shasum -a 256 --check\" shasum -a 256 file.thingy\n\n"
+}
+
+ytdl-output-template-example () {
+  echo "yt-dlp: how to use the -o option"
+  echo "example:"
+  echo "yt-dlp -o %(STRING)s video.com/link123"
+}

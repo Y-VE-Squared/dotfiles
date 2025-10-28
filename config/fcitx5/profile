@@ -18,15 +18,12 @@ Name=wbpy
 # Layout
 Layout=
 
-<<<<<<< HEAD
 [Groups/0/Items/2]
 # Name
 Name=keyboard-apl-dyalog
 # Layout
 Layout=
 
-=======
->>>>>>> 2678192 (messy updates + gitignore update)
 [GroupOrder]
 0=Default
 

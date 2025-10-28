@@ -1,4 +1,5 @@
 #!/bin/bash
+# pythagorean triplets
 #echo -e "t: 1+t², 2t, 1-t²";
 printf "%3s: %6s, %4s, %8s\n" 't' '1+t²' '2t' '1-t²'
 
